@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Jay Lowe's Blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jay-lowe-a21075163/
+
+  favicon: logo.png
+  site-url: https://ogjaylowe.com
+format:
+  html:
+    theme: materia
+    css: styles.css
+    include-after-body: ./footer.html
+
+
