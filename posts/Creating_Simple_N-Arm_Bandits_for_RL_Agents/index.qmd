@@ -1,8 +1,8 @@
 ---
 title: "Understanding Energy Sub-Sectors: Part 1"
 author: "Jay Lowe"
-date: "2024-08-06"
-categories: ["energy", "ai", "exploration"]
+date: "2024-10-06"
+categories: ["energy", "ai", "series"]
 image: "one_armed_bandit.jpg"
 format:
   html:
@@ -15,6 +15,65 @@ jupyter: python3
 > Understand the energy market's sub-sectors and how the market as a whole connects together
 
 # Creating an n-armed bandit
+
+```{python}
+import plotly.graph_objects as go
+
+# Define the data
+labels = [
+    "Energy",
+    "Generation", "Storage", "Transmission",
+    "Fossil", "Renewable", "Nuclear",
+    "Short-term", "Long-term",
+    "Grid Infrastructure", "Efficiency", "Energy Conversion",
+    "Solar", "Wind", "Hydro", "geothermal", "biomass", "tidal",
+    "Oil","Gas","Coal",
+    "Lithium-ion batteries", "Supercapacitors", "Pumped hydro storage", "Compressed Air Energy Storage",
+    "Hydrogen storage", "Flow batteries", "Power-to-Gas", "Cryogenic energy storage",
+]
+
+parents = [
+    "",
+    "Energy", "Energy", "Energy",
+    "Generation", "Generation", "Generation",
+    "Storage", "Storage",
+    "Transmission", "Transmission", "Transmission",
+    "Renewable", "Renewable", "Renewable", "Renewable", "Renewable", "Renewable",
+    "Fossil","Fossil","Fossil",
+    "Short-term", "Short-term", "Short-term", "Short-term",
+    "Long-term", "Long-term", "Long-term", "Long-term"
+]
+
+# Update values to represent market share (these are example values, adjust as needed)
+values = [
+    100,  # Energy (total)
+    60, 20, 20,  # Generation, Storage, Transmission
+    60, 20, 20,  # Fossil, Renewable, Nuclear
+    10, 10,  # Short-term, Long-term
+    7, 7, 6,  # Grid Infrastructure, Efficiency, Energy Conversion
+    5, 7, 5, 1, 1, 1,  # Solar, Wind, Hydro, Geothermal, Biomass, Tidal
+    20, 25, 15,  # Oil, Gas, Coal
+    4, 2, 2, 2,  # Lithium-ion, Supercapacitors, Pumped hydro, Compressed Air
+    3, 3, 2, 2,  # Hydrogen, Flow batteries, Power-to-Gas, Cryogenic
+]
+
+# Create the sunburst chart
+fig = go.Figure(go.Sunburst(
+    labels=labels,
+    parents=parents,
+    values=values,
+))
+
+# Update the layout
+fig.update_layout(
+    title="Energy Sector Sunburst Chart",
+    width=800,
+    height=800,
+)
+
+# Show the chart
+fig.show()
+```
 
 ## Defining a bandit
 
