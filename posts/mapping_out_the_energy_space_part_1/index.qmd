@@ -1,9 +1,9 @@
 ---
 title: "Understanding Energy Sub-Sectors: Part 1"
 author: "Jay Lowe"
-date: "2024-10-06"
+date: "2024-06-10"
 categories: ["energy", "ai", "series"]
-image: "one_armed_bandit.jpg"
+image: "map.png"
 format:
   html:
     code-fold: false
@@ -14,11 +14,7 @@ jupyter: python3
 
 > Understand the energy market's sub-sectors and how the market as a whole connects together
 
-# Energy
-
-Article summary - done
-
-# Mapping out the energy space
+# Mapping out the energy space [PART 1]
 
 A quick foreword—I’m an AI guy and I use it for lots of things.
 
@@ -39,7 +35,7 @@ I don’t know much about how the energy space works as a whole, but I do know t
 > AI servers could use 0.5% of the world’s electrical generation by 2027. For context, data centers currently use around 1% of global electrical generation… this suggests an electricity consumption of approximately 3 Wh per LLM interaction.
 > 
 
-Cell Press. (2023). Joule, Volume 7, Issue 7. Retrieved from [https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3](https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3)
+[^1]: Cell Press. (2023). Joule, Volume 7, Issue 7. Retrieved from [https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3](https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3)
 
 While writing this article, I made at least 100 LLM interactions, using about 300 Wh, so for context my AI usage was about the equivalent to a 10-watt LED light bulb running for 30 hours.
 
@@ -179,3 +175,8 @@ If I had to throw a dart at the dartboard to understand where AI could play a ro
 - market forecasting
 
 Not too imaginative or specific yet! I see AI as the ultimate prediction tool that can find ways to move molecules from point A to point B in unexpected ways.
+
+
+## What to read next
+
+Post link to next article here...
