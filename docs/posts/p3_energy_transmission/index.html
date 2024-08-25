@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jay Lowe">
+<meta name="dcterms.date" content="2024-08-24">
 
-<title>Home – Jay Lowe’s Blog</title>
+<title>How the heck do we transmit energy? – Jay Lowe’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Jay Lowe’s Blog</span>
     </a>
   </div>
@@ -150,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -176,163 +118,145 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Home</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ai">ai <span class="quarto-category-count">(3)</span></div><div class="category" data-category="energy">energy <span class="quarto-category-count">(3)</span></div><div class="category" data-category="series">series <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">How the heck do we transmit energy?</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">energy</div>
+    <div class="quarto-category">ai</div>
+    <div class="quarto-category">series</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jay Lowe </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 24, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="article-summary" class="level5">
+<h5 class="anchored" data-anchor-id="article-summary">Article Summary</h5>
+<blockquote class="blockquote">
+<p>Understand how energy transmission works from a fundamental perspective</p>
+</blockquote>
+</section>
+<section id="how-the-heck-do-we-transmit-energy-part-3" class="level1">
+<h1>How the heck do we transmit energy? [PART 3]</h1>
+<p>At a high level, electrical energy in the form of electromagnetic waves zips through the vacuum of space at the speed of light. But here on Earth, we have to shuffle energy along conductive materials such as copper wire. This physical route slows things down by a hefty amount!</p>
+<p>TLDR we gotta push it real good.</p>
+<p>To effectively discuss and explain energy transfer processes, it’s crucial to grasp these key concepts:</p>
+<ul>
+<li>voltage (<code>V = I x R</code>): similar to pressure in a water pipe, voltage can represent how much “push” an electrical charge will have with higher amounts of voltage corresponding to faster traveling times.
+<ul>
+<li>current (<code>I</code>): the current rate of travel energy will move through a conductive material at, with higher currents representing a higher rate of “electrical flow”</li>
+<li>resistance (<code>R</code>): the forces acting against the “electrical flow”, similar to friction</li>
+<li>Note: typically as voltage increases, current increases as well because in most contexts the physical conduit that energy travel along will remain the same unless the material gets replaced (or worn down by long periods of time)</li>
+</ul></li>
+<li>watt (aka power, <code>P = V x I</code>): represents the rate of “pushing”, or work being done, will occur—with higher levels of power having more “push”, a higher rate of “push”, or both.
+<ul>
+<li>Note: the relationship of voltage and power can also be represented as:
+<ul>
+<li><code>P = (I × R) × I</code></li>
+<li><code>P = I^2 × R</code></li>
+<li><code>I = V / R</code>
+<ul>
+<li>current is directly proportionate to resistance (double one and the other halves)</li>
+<li>doubling the current quadruples the power (therefore power will always be sensitive to current)</li>
+</ul></li>
+</ul></li>
+<li>While <code>P = V x I</code> and <code>P = I^2 × R</code> operate in an algebraically equivalently manner:
+<ul>
+<li><code>P = V x I</code> represents the total power transmitted through a system</li>
+<li><code>P = I^2 × R</code> represents the power lost as heat due to resistance, aka Joule heating</li>
+</ul></li>
+</ul></li>
+<li>joule (aka energy, E = integral of P over time): the total amount of energy that has flowed through the system, with higher joules representing more energy</li>
+</ul>
+<section id="step-to-the-left-now-step-to-the-right" class="level2">
+<h2 class="anchored" data-anchor-id="step-to-the-left-now-step-to-the-right">Step to the left, now step to the right</h2>
+<p>To provide context for what qualifies as “high” vs.&nbsp;“low” voltage, the average American household uses 110-volt power outlets for most appliances.</p>
+<p>Power generation facilities typically produce electricity between 10-25 kV (averging 127 times greater than what powers your toaster).</p>
+<p>Newly generated energy often travels 50-300 miles after production, necessitating stepped-up voltage levels for efficient transmission.</p>
+<section id="feelings-of-powerlessness" class="level3">
+<h3 class="anchored" data-anchor-id="feelings-of-powerlessness">Feelings of powerlessness</h3>
+<p>Transmission lines provide a conduit for energy to travel through, but also resistance. The majority of power loss will be caused by this resistance.</p>
+<p>Here’s the fancy workaround trick engineers use to maximize energy transfer:</p>
+<ol type="1">
+<li>Since <code>power = voltage * current (I)</code>, increasing the <code>voltage</code> will result in a lower <code>current</code> if <code>power</code> remains constant</li>
+<li>Power loss responds to <code>current</code> quadratically in <code>power loss = current^2 × resistance</code> , so a decrease in <code>current</code> leads to major efficiency improvement in <code>power loss</code>
+<ol type="1">
+<li>example with <code>1,000,000 W</code> of power, <code>10 Ω</code> of resistance, and <code>10,000 V</code> :
+<ol type="1">
+<li>using <code>I = P / V</code> to calculate <code>current</code>, <code>1,000,000 W / 10,000 V = 100 A</code></li>
+<li>using <code>P = I^2 * R</code> to calculate <code>power loss</code>, <code>(100 A)^2 * 10 Ω = 100,000 W</code> of power lost to resistance</li>
+</ol></li>
+<li>example with <code>1,000,000 W</code> of power, <code>10 Ω</code> of resistance, and <code>100,000 V</code> :
+<ol type="1">
+<li>using <code>I = P / V</code> to calculate <code>current</code>, <code>1,000,000 W / 100,000 V = 10 A</code></li>
+<li>using <code>P = I^2 * R</code> to calculate <code>power loss</code>, <code>(10 A)^2 * 10 Ω = 1,000 W</code> of power lost to resistance</li>
+</ol></li>
+</ol></li>
+</ol>
+<p>TLDR a 10x increase in <code>voltage</code> results in a 100x less power lost because less <code>current</code> means less power lost to heat!</p>
+</section>
+</section>
+<section id="now-step-it-up" class="level2">
+<h2 class="anchored" data-anchor-id="now-step-it-up">Now step it up!</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="transmission.png" class="img-fluid figure-img"></p>
+<figcaption>transmission.png</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Sustainable Sanitation and Water Management (SSWM).</strong> (n.d.). <em>Hydropower (large-scale).</em> SSWM. Retrieved August 21, 2024, from <a href="https://sswm.info/water-nutrient-cycle/water-use/hardwares/water-energy/hydropower-(large-scale)">https://sswm.info/water-nutrient-cycle/water-use/hardwares/water-energy/hydropower-(large-scale)</a></li>
+</ul>
+<p>Let’s follow the flow of energy as it moves from generator to home appliance:</p>
+<ul>
+<li>Generator: Produces energy, usually via induction (such as at a hydroelectric dam), converting mechanical energy into electrical energy at ~10-25 kV</li>
+<li>Step-up transformer: Increases voltage to ~250-500 kV, depending on the distance to the next step</li>
+<li>Circuit breaker: Protects the entire electrical system by ensuring interruptions in flow from one section don’t cause faults or overloads in another</li>
+<li>High voltage lines: Provide the conduit for electricity to travel over long distances</li>
+<li>Step-down transformer (local substation): Decreases voltage to ~5-50 kV range for transfer in local areas</li>
+<li>Step-down transformer (pole transformer): Further decreases voltage to the standard 120 or 240 volts used in residential outlets</li>
+</ul>
+</section>
+<section id="next-up-to-read" class="level2">
+<h2 class="anchored" data-anchor-id="next-up-to-read">Next up to read</h2>
+<p>Now that the fundamental mechanics of energy transmission has been covered, lets learn a bit more about how new energy sources get added to the grid—and whom wields the power!</p>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="energy,ai,series" data-listing-date-sort="1724493600000" data-listing-file-modified-sort="1724550844531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="938">
-<div class="thumbnail">
-<p><a href="./posts/p3_energy_transmission/index.html" class="no-external"></a></p><a href="./posts/p3_energy_transmission/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p3_energy_transmission/image 2.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/p3_energy_transmission/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">How the heck do we transmit energy?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">Understand how energy transmission works from a fundamental perspective</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">
-<div class="listing-date">
-Aug 24, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="energy,ai,series" data-listing-date-sort="1723888800000" data-listing-file-modified-sort="1724551569660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1017">
-<div class="thumbnail">
-<p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a></p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p2_hydro_electric_power_part/Hydro_Powerplant_Flow.gif" class="thumbnail-image"></p>
-</a><p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">DAMS DAMS DAMS</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">How hydroelectric dams produce energy and the way Idaho uses it to power the majority of its cities</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">
-<div class="listing-date">
-Aug 17, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="energy,ai,series" data-listing-date-sort="1723284000000" data-listing-file-modified-sort="1724551151640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1331">
-<div class="thumbnail">
-<p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a></p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p1_mapping_out_the_energy_space/sunburst.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">Understanding Energy Sub-Sectors: Part 1</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">Understand the energy market’s sub-sectors and how the market as a whole connects together</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">
-<div class="listing-date">
-Aug 10, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+</section>
+
+</main> <!-- /main -->
 <div>
     <hr>
     

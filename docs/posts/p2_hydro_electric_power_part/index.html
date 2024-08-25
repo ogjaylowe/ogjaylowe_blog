@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jay Lowe">
+<meta name="dcterms.date" content="2024-08-17">
 
-<title>Home – Jay Lowe’s Blog</title>
+<title>DAMS DAMS DAMS – Jay Lowe’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Jay Lowe’s Blog</span>
     </a>
   </div>
@@ -150,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -176,163 +118,180 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Home</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="ai">ai <span class="quarto-category-count">(3)</span></div><div class="category" data-category="energy">energy <span class="quarto-category-count">(3)</span></div><div class="category" data-category="series">series <span class="quarto-category-count">(3)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">DAMS DAMS DAMS</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">energy</div>
+    <div class="quarto-category">ai</div>
+    <div class="quarto-category">series</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jay Lowe </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 17, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="article-summary" class="level5">
+<h5 class="anchored" data-anchor-id="article-summary">Article Summary</h5>
+<blockquote class="blockquote">
+<p>How hydroelectric dams produce energy and the way Idaho uses it to power the majority of its cities</p>
+</blockquote>
+</section>
+<section id="dams-dams-dams-part-2" class="level1">
+<h1><strong>DAMS DAMS DAMS [PART 2]</strong></h1>
+<p>Now that energy sectors <a href="../../posts/p1_mapping_out_the_energy_space/index.html">have been broken down</a>, let’s start exploring energy sources.</p>
+<p>Since the first human saw the first river, we’ve been doing everything we can to ruin them. Some might say it was a match made in heaven. In fact, <a href="https://www.notion.so/Energy-0214c4459b524289b881f243c02b890b?pvs=21">3000 BCE was the beginning of serious river fuckery</a>—but honestly we’ve probably been doing it for longer than that!</p>
+<blockquote class="blockquote">
+<p>Hydroelectric powerplants are the most efficient means of producing electric energy. The efficiency of today’s hydroelectric plant is about 90 percent</p>
+</blockquote>
+<ul>
+<li>U.S. Bureau of Reclamation. (n.d.). <em>Hydropower program</em>. U.S. Department of the Interior. Retrieved from <a href="https://www.usbr.gov/power/edu/pamphlet.pdf">https://www.usbr.gov/power/edu/pamphlet.pdf</a></li>
+</ul>
+<p>That quote was taken before zoomers existed so hopefully we have achieved something higher than 90%.</p>
+<p>In terms of “sexy and lucrative emerging business ventures”—dams score pretty low. Which makes it ripe for innovation!</p>
+<section id="differentiating-types-of-hydroelectric-power-generation" class="level2">
+<h2 class="anchored" data-anchor-id="differentiating-types-of-hydroelectric-power-generation">Differentiating types of hydroelectric power generation</h2>
+<p>Fossil fuels, renewable, and fusion energy sources all play a role in the nations energy portfolio, but in Idaho—<a href="https://www.notion.so/Energy-0214c4459b524289b881f243c02b890b?pvs=21">around 43% of of the energy generated comes from hydroelectric facilities (5th highest in the nation)!</a></p>
+<p>Five of the ten facilities listed in Idaho’s renewable energy breakdown operate as hydroelectric dams.</p>
+<p>What might the other forms of hydroelectric generation be?</p>
+<p>Let’s break down the most common forms of hydroelectric power generation:</p>
+<ul>
+<li><strong>Hydroelectric dams:</strong> A large wall built across the width of a river, called a dam, causes a significant reservoir of water to build up. This water can be released at a controlled rate through turbines built into the dam’s structure.
+<ul>
+<li>Pumped storage facilities can use excess energy to pump water from a lower point to a higher point. This water can then be released through turbines during periods of high energy demand.</li>
+</ul></li>
+<li><strong>Run-of-the-river hydroelectric plants:</strong> A turbine uses the natural flow of the river without creating a reservoir.</li>
+<li><strong>Small-scale hydro projects:</strong> Plants built into existing infrastructure, such as a water supply pipeline, generate electricity without a reservoir.</li>
+</ul>
+</section>
+<section id="hydroelectric-dam-energy-generation-efficiency" class="level2">
+<h2 class="anchored" data-anchor-id="hydroelectric-dam-energy-generation-efficiency">Hydroelectric dam energy generation efficiency</h2>
+<p>Energy generation facilities maximize the output of energy while minimizing energy loss throughout the system.</p>
+<p>Similar to a Costco hotdog going through the human digestive track—undesirable forces tend to ruin good times. For a dam, forces such as turbine friction and water turbulence can cause energy that could have been captured elsewhere to be lost counterproductively.</p>
+<p>Take a look at this diagram provided by the <a href="https://www.usgs.gov/media/images/flow-water-produces-hydroelectricity">USGS for a better understanding of the process as a whole.</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Hydro_Powerplant_Flow.gif" class="img-fluid figure-img"></p>
+<figcaption>Fig 1 - hydro power plant diagram from USGS</figcaption>
+</figure>
+</div>
+<ol type="1">
+<li>Potential Energy Storage: Water held in the reservoir stores potential energy due to its elevation</li>
+<li>Penstock: Water flows down a large pipe called the penstock, converting potential energy to kinetic energy</li>
+<li>Turbine: Fast-moving water spins a turbine, creating mechanical energy from the rotating turbine shaft</li>
+<li>Generator: The turbine shaft spins, causing a large electromagnet inside the generator to rotate past stationary coils of wire—inducing an electric current through electromagnetic induction (converting mechanical energy to electrical energy)</li>
+<li><strong>Dam Transformer</strong>: Lower voltage electricity produced by the generator passes through the high voltage transformer for more efficient long-distance transmission
+<ul>
+<li>This step doesn’t create new energy but changes the characteristics of the electrical energy (higher voltage, lower current)</li>
+</ul></li>
+<li><strong>Transmission Lines</strong>: High voltage electricity travels across transmission lines to substations</li>
+<li><strong>Substation Transformers</strong>: High voltage electricity passes through the low voltage transformer for distribution to local areas</li>
+<li><strong>Distribution Lines</strong>: Lower voltage electricity flows directly to homes and businesses</li>
+<li><strong>Local Transformers</strong>: Transformers on power poles or in ground-level boxes further reduce the voltage for use in buildings</li>
+<li><strong>Application Usage</strong>: Homes and businesses utilize the energy in various forms (light, heat, mechanical energy in motors, etc.)</li>
+</ol>
+<p>TLDR spin to win baby!</p>
+<section id="public-vs-private-energy-generation" class="level3">
+<h3 class="anchored" data-anchor-id="public-vs-private-energy-generation">Public vs private energy generation</h3>
+<p>Similar to any other market sector, generation of energy can be a venture owned by private, public, or government corporations. In Idaho it breaks down like this:</p>
+<ul>
+<li>Private facilities
+<ul>
+<li>Hells Canyon Complex (a collection of three facilities) = largest privately-owned conventional hydroelectric generating facility in the USA
+<ul>
+<li>Brownlee Dam</li>
+<li>Oxbow Dam</li>
+<li>Hells Canyon Dam</li>
+</ul></li>
+<li>C.J. Strike Dam</li>
+<li>Lower Salmon Falls Dam</li>
+<li>Cabinet Gorge Dam (only one not owned by Idaho Power, but rather owned by Avista)</li>
+<li>Bliss Dam</li>
+<li>Upper Salmon Falls Dam</li>
+<li>Swan Falls Dam</li>
+</ul></li>
+<li>Public facilities
+<ul>
+<li>Dworshak Dam</li>
+</ul></li>
+<li>State / federal facilities
+<ul>
+<li>Priest Lake Dam</li>
+<li>American Falls Dam</li>
+</ul></li>
+</ul>
+</section>
+<section id="somewhat-unrelated-but-interesting-facts-on-powers-biggest-power-users-in-idaho" class="level3">
+<h3 class="anchored" data-anchor-id="somewhat-unrelated-but-interesting-facts-on-powers-biggest-power-users-in-idaho">Somewhat unrelated but interesting facts on powers biggest “power users” in Idaho</h3>
+<ul>
+<li>30% of power goes to industrial usage (it is the gem state after all)</li>
+<li>30% of power goes to transportation (Idaho has no petrolium production facilities and has rural transportation capabilities)</li>
+<li>24% goes to residential usage</li>
+<li>16% goes to commercial usage</li>
+</ul>
+<p>Idaho consumes 4x more power than it generates (the rest comes from natural gas imports and the Bonneville Power Administration (BPA) which reroutes electric energy from federal dams out-of-state). Surprisingly, Idaho still has the nation’s third-lowest average residential electricity price.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./fig10_1.png" class="img-fluid figure-img"></p>
+<figcaption>Fig 2 - not actually Figure 1.10</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Idaho Office of Energy and Mineral Resources.</strong> (2021). <em>Idaho energy landscape 2021</em>. <a href="https://oemr.idaho.gov/wp-content/uploads/Idaho-Energy-Landscape-2021.pdf">https://oemr.idaho.gov/wp-content/uploads/Idaho-Energy-Landscape-2021.pdf</a></li>
+</ul>
+<p>As a result of this gap between consumption and production, the Pacific Northwest’s transmission capabilities becomes more congested each year as demands increase across the entire region. Solar and wind energy have the most new projects coming up in the next decade and funding has been funneled towards more.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./total_supply.png" class="img-fluid figure-img"></p>
+<figcaption>Fig 3 - in-state energy production vs out-of-state energy import</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>U.S. Energy Information Administration.</strong> (n.d.). <em>Idaho - State electricity profile</em>. U.S. Energy Information Administration. Retrieved August 21, 2024, from <a href="https://www.eia.gov/electricity/state/idaho/index.php">https://www.eia.gov/electricity/state/idaho/index.php</a></li>
+</ul>
+<p>While annual energy consumption rates in Idaho increase at an annual rate of about 2.5%, energy imports have been decreasing</p>
+<p><a href="https://oemr.idaho.gov/financial-information/reports-and-publications/">More reports on Idaho energy can be found here.</a></p>
+</section>
+</section>
+<section id="what-to-read-next" class="level2">
+<h2 class="anchored" data-anchor-id="what-to-read-next">What to read next</h2>
+<p><a href="../../posts/p3_energy_transmission/index.html">An exploration on transformers</a> and how energy works from a fundamental level!</p>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="energy,ai,series" data-listing-date-sort="1724493600000" data-listing-file-modified-sort="1724550844531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="938">
-<div class="thumbnail">
-<p><a href="./posts/p3_energy_transmission/index.html" class="no-external"></a></p><a href="./posts/p3_energy_transmission/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p3_energy_transmission/image 2.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/p3_energy_transmission/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">How the heck do we transmit energy?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">Understand how energy transmission works from a fundamental perspective</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">
-<div class="listing-date">
-Aug 24, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="energy,ai,series" data-listing-date-sort="1723888800000" data-listing-file-modified-sort="1724551569660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1017">
-<div class="thumbnail">
-<p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a></p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p2_hydro_electric_power_part/Hydro_Powerplant_Flow.gif" class="thumbnail-image"></p>
-</a><p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">DAMS DAMS DAMS</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">How hydroelectric dams produce energy and the way Idaho uses it to power the majority of its cities</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">
-<div class="listing-date">
-Aug 17, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="energy,ai,series" data-listing-date-sort="1723284000000" data-listing-file-modified-sort="1724551151640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1331">
-<div class="thumbnail">
-<p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a></p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p1_mapping_out_the_energy_space/sunburst.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">Understanding Energy Sub-Sectors: Part 1</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">Understand the energy market’s sub-sectors and how the market as a whole connects together</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">
-<div class="listing-date">
-Aug 10, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+</section>
+
+</main> <!-- /main -->
 <div>
     <hr>
     

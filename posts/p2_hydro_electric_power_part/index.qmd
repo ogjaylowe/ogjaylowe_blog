@@ -1,0 +1,118 @@
+---
+title: "DAMS DAMS DAMS"
+author: "Jay Lowe"
+date: "2024-08-17"
+categories: ["energy", "ai", "series"]
+image: "Hydro_Powerplant_Flow.gif"
+format:
+  html:
+    code-fold: false
+jupyter: python3
+---
+
+##### Article Summary
+
+> How hydroelectric dams produce energy and the way Idaho uses it to power the majority of its cities
+
+# **DAMS DAMS DAMS [PART 2]**
+
+Now that energy sectors [have been broken down](../p1_mapping_out_the_energy_space/index.qmd), let's start exploring energy sources.
+
+Since the first human saw the first river, we’ve been doing everything we can to ruin them. Some might say it was a match made in heaven. In fact, [3000 BCE was the beginning of serious river fuckery](https://www.notion.so/Energy-0214c4459b524289b881f243c02b890b?pvs=21)—but honestly we’ve probably been doing it for longer than that!    
+
+> Hydroelectric powerplants are the most efficient means of producing electric energy. The
+efficiency of today's hydroelectric plant is about 90 percent
+> 
+
+- U.S. Bureau of Reclamation. (n.d.). *Hydropower program*. U.S. Department of the Interior. Retrieved from [https://www.usbr.gov/power/edu/pamphlet.pdf](https://www.usbr.gov/power/edu/pamphlet.pdf)
+
+That quote was taken before zoomers existed so hopefully we have achieved something higher than 90%.
+
+In terms of “sexy and lucrative emerging business ventures”—dams score pretty low. Which makes it ripe for innovation!
+
+## Differentiating types of hydroelectric power generation
+
+Fossil fuels, renewable, and fusion energy sources all play a role in the nations energy portfolio, but in Idaho—[around 43% of of the energy generated comes from hydroelectric facilities (5th highest in the nation)!](https://www.notion.so/Energy-0214c4459b524289b881f243c02b890b?pvs=21)
+
+Five of the ten facilities listed in Idaho’s renewable energy breakdown operate as hydroelectric dams.
+
+What might the other forms of hydroelectric generation be?
+
+Let’s break down the most common forms of hydroelectric power generation:
+
+- **Hydroelectric dams:** A large wall built across the width of a river, called a dam, causes a significant reservoir of water to build up. This water can be released at a controlled rate through turbines built into the dam's structure.
+    - Pumped storage facilities can use excess energy to pump water from a lower point to a higher point. This water can then be released through turbines during periods of high energy demand.
+- **Run-of-the-river hydroelectric plants:** A turbine uses the natural flow of the river without creating a reservoir.
+- **Small-scale hydro projects:** Plants built into existing infrastructure, such as a water supply pipeline, generate electricity without a reservoir.
+
+## Hydroelectric dam energy generation efficiency
+
+Energy generation facilities maximize the output of energy while minimizing energy loss throughout the system. 
+
+Similar to a Costco hotdog going through the human digestive track—undesirable forces tend to ruin good times. For a dam, forces such as turbine friction and water turbulence can cause energy that could have been captured elsewhere to be lost counterproductively.
+
+Take a look at this diagram provided by the [USGS for a better understanding of the process as a whole.](https://www.usgs.gov/media/images/flow-water-produces-hydroelectricity)
+
+![Fig 1 - hydro power plant diagram from USGS](./Hydro_Powerplant_Flow.gif)
+
+1. Potential Energy Storage: Water held in the reservoir stores potential energy due to its elevation
+2. Penstock: Water flows down a large pipe called the penstock, converting potential energy to kinetic energy
+3. Turbine: Fast-moving water spins a turbine, creating mechanical energy from the rotating turbine shaft
+4. Generator: The turbine shaft spins, causing a large electromagnet inside the generator to rotate past stationary coils of wire—inducing an electric current through electromagnetic induction (converting mechanical energy to electrical energy)
+5. **Dam Transformer**: Lower voltage electricity produced by the generator passes through the high voltage transformer for more efficient long-distance transmission
+    - This step doesn't create new energy but changes the characteristics of the electrical energy (higher voltage, lower current)
+6. **Transmission Lines**: High voltage electricity travels across transmission lines to substations
+7. **Substation Transformers**: High voltage electricity passes through the low voltage transformer for distribution to local areas
+8. **Distribution Lines**: Lower voltage electricity flows directly to homes and businesses
+9. **Local Transformers**: Transformers on power poles or in ground-level boxes further reduce the voltage for use in buildings
+10. **Application Usage**: Homes and businesses utilize the energy in various forms (light, heat, mechanical energy in motors, etc.)
+
+TLDR spin to win baby!
+
+### Public vs private energy generation
+
+Similar to any other market sector, generation of energy can be a venture owned by private, public, or government corporations. In Idaho it breaks down like this:
+
+- Private facilities
+    - Hells Canyon Complex (a collection of three facilities) = largest privately-owned conventional hydroelectric generating facility in the USA
+        - Brownlee Dam
+        - Oxbow Dam
+        - Hells Canyon Dam
+    - C.J. Strike Dam
+    - Lower Salmon Falls Dam
+    - Cabinet Gorge Dam (only one not owned by Idaho Power, but rather owned by Avista)
+    - Bliss Dam
+    - Upper Salmon Falls Dam
+    - Swan Falls Dam
+- Public facilities
+    - Dworshak Dam
+- State / federal facilities
+    - Priest Lake Dam
+    - American Falls Dam
+
+### Somewhat unrelated but interesting facts on powers biggest “power users” in Idaho
+
+- 30% of power goes to industrial usage (it is the gem state after all)
+- 30% of power goes to transportation (Idaho has no petrolium production facilities and has rural transportation capabilities)
+- 24% goes to residential usage
+- 16% goes to commercial usage
+
+Idaho consumes 4x more power than it generates (the rest comes from natural gas imports and the Bonneville Power Administration (BPA) which reroutes electric energy from federal dams out-of-state). Surprisingly, Idaho still has the nation's third-lowest average residential electricity price.
+
+![Fig 2 - not actually Figure 1.10](./fig10_1.png)
+
+- **Idaho Office of Energy and Mineral Resources.** (2021). *Idaho energy landscape 2021*. [https://oemr.idaho.gov/wp-content/uploads/Idaho-Energy-Landscape-2021.pdf](https://oemr.idaho.gov/wp-content/uploads/Idaho-Energy-Landscape-2021.pdf)
+
+As a result of this gap between consumption and production, the Pacific Northwest's transmission capabilities becomes more congested each year as demands increase across the entire region. Solar and wind energy have the most new projects coming up in the next decade and funding has been funneled towards more.
+
+![Fig 3 - in-state energy production vs out-of-state energy import](./total_supply.png)
+
+- **U.S. Energy Information Administration.** (n.d.). *Idaho - State electricity profile*. U.S. Energy Information Administration. Retrieved August 21, 2024, from [https://www.eia.gov/electricity/state/idaho/index.php](https://www.eia.gov/electricity/state/idaho/index.php)
+
+While annual energy consumption rates in Idaho increase at an annual rate of about 2.5%, energy imports have been decreasing
+
+[More reports on Idaho energy can be found here.](https://oemr.idaho.gov/financial-information/reports-and-publications/)
+
+## What to read next
+
+[An exploration on transformers](../p3_energy_transmission/index.qmd) and how energy works from a fundamental level!

@@ -1,9 +1,9 @@
 ---
 title: "Understanding Energy Sub-Sectors: Part 1"
 author: "Jay Lowe"
-date: "2024-06-10"
+date: "2024-08-10"
 categories: ["energy", "ai", "series"]
-image: "map.png"
+image: "sunburst.png"
 format:
   html:
     code-fold: false
@@ -20,7 +20,7 @@ A quick foreword—I’m an AI guy and I use it for lots of things.
 
 While I don’t like to use it for writing, as it tends to create voiceless and untrustworthy text, it does one thing REALLY well….
 
-![Interesting Man Meme.jpg](./mapping_out_the_energy_space_part_1/Interesting_Man_Meme.jpg)
+![Fig 1 - an okay meme](./Interesting_Man_Meme.jpg)
 
 Claude helped me to brainstorm the list (which I heavily curated and modified) that I’m using as my roadmap for understanding the energy market as a whole.
 
@@ -33,9 +33,9 @@ Alongside the mega-minds and hype men, the AI industry requires many ingredients
 I don’t know much about how the energy space works as a whole, but I do know that AI requires a lot of it. How much specifically?
 
 > AI servers could use 0.5% of the world’s electrical generation by 2027. For context, data centers currently use around 1% of global electrical generation… this suggests an electricity consumption of approximately 3 Wh per LLM interaction.
-> 
 
-[^1]: Cell Press. (2023). Joule, Volume 7, Issue 7. Retrieved from [https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3](https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3)
+- Cell Press. (2023). Joule, Volume 7, Issue 7. Retrieved from [https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3](https://www.cell.com/joule/fulltext/S2542-4351(23)00365-3)
+> 
 
 While writing this article, I made at least 100 LLM interactions, using about 300 Wh, so for context my AI usage was about the equivalent to a 10-watt LED light bulb running for 30 hours.
 
@@ -147,8 +147,6 @@ I’ll be focusing on the tangential markets in a later post.
 
 I was surprised to see that energy generation had such a large share of the overall energy market. It makes sense that resources used to produce energy would play a substantial role, but I didn’t anticipate that the majority of energy would be utilized (or perhaps lost) before storage and transmission played a bigger role.
 
-- Note to self for future investigation 🕵️‍♂️—better understand how much energy gets lost before it even leaves the building…
-
 Hydro energy being the largest of the renewables by a significant factor was also surprising. Regions of the country with large rivers and waterfalls produce disproportionate amounts of energy compared to their usage!
 
 I also had no idea that you could store energy by essentially pumping or compressing resources like water and air for future kinetic gains (a spicy physics trick 🌶️).
@@ -179,4 +177,4 @@ Not too imaginative or specific yet! I see AI as the ultimate prediction tool th
 
 ## What to read next
 
-Post link to next article here...
+ [Next up we dig into hydroelectric power!](../p2_hydro_electric_power_part/index.qmd)
