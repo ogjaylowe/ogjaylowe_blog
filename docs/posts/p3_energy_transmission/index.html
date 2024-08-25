@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -224,6 +258,68 @@ ul.task-list li input[type="checkbox"] {
 </ol></li>
 </ol></li>
 </ol>
+<div id="0b0ed8d0" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Provided definitions</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_current(power, voltage):</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> power <span class="op">/</span> voltage</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_power_lost(current, resistance):</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (current<span class="op">**</span><span class="dv">2</span>) <span class="op">*</span> resistance</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialization</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>power_in_watts <span class="op">=</span> <span class="dv">1000000</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>resistance_in_ohms <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>low_voltage <span class="op">=</span> <span class="dv">10000</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>high_voltage <span class="op">=</span> low_voltage <span class="op">*</span> <span class="dv">10</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Example 1 - power lost when using low_voltage</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>low_voltage_current <span class="op">=</span> calculate_current(power_in_watts, low_voltage)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>power_lost_to_low_voltage <span class="op">=</span> calculate_power_lost(low_voltage_current, resistance_in_ohms)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Example 2 - power lost when using high_voltage</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>high_voltage_current <span class="op">=</span> calculate_current(power_in_watts, high_voltage)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>power_lost_to_high_voltage <span class="op">=</span> calculate_power_lost(high_voltage_current, resistance_in_ohms)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Data for plotting</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>voltages <span class="op">=</span> [low_voltage, high_voltage]</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>currents <span class="op">=</span> [low_voltage_current, high_voltage_current]</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>power_losses <span class="op">=</span> [power_lost_to_low_voltage, power_lost_to_high_voltage]</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting the results</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>fig, ax1 <span class="op">=</span> plt.subplots()</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>ax2 <span class="op">=</span> ax1.twinx()</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>ax1.plot(voltages, currents, <span class="st">'g-'</span>, marker<span class="op">=</span><span class="st">'o'</span>, label<span class="op">=</span><span class="st">"Current (A)"</span>)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>ax2.plot(voltages, power_losses, <span class="st">'b-'</span>, marker<span class="op">=</span><span class="st">'o'</span>, label<span class="op">=</span><span class="st">"Power Loss (W)"</span>)</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>ax1.set_xlabel(<span class="st">'Voltage (V)'</span>)</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>ax1.set_ylabel(<span class="st">'Current (A)'</span>, color<span class="op">=</span><span class="st">'g'</span>)</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>ax2.set_ylabel(<span class="st">'Power Loss (W)'</span>, color<span class="op">=</span><span class="st">'b'</span>)</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjusting the scale of the power loss axis to show quadratic relationship</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>ax2.set_yscale(<span class="st">'log'</span>)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Adding an index to the side to show exact values</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, (v, c, p) <span class="kw">in</span> <span class="bu">enumerate</span>(<span class="bu">zip</span>(voltages, currents, power_losses)):</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>    ax1.annotate(<span class="ss">f'V: </span><span class="sc">{</span>v<span class="sc">}</span><span class="ch">\n</span><span class="ss">I: </span><span class="sc">{</span>c<span class="sc">:.2f}</span><span class="ss"> A</span><span class="ch">\n</span><span class="ss">P_loss: </span><span class="sc">{</span>p<span class="sc">:.2e}</span><span class="ss"> W'</span>,</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>                 xy<span class="op">=</span>(v, c), xytext<span class="op">=</span>(<span class="dv">5</span>, <span class="op">-</span><span class="dv">10</span> <span class="op">-</span> <span class="dv">30</span> <span class="op">*</span> i),</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>                 textcoords<span class="op">=</span><span class="st">'offset points'</span>, ha<span class="op">=</span><span class="st">'center'</span>, va<span class="op">=</span><span class="st">'center'</span>,</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>                 fontsize<span class="op">=</span><span class="dv">9</span>, color<span class="op">=</span><span class="st">'black'</span>, bbox<span class="op">=</span><span class="bu">dict</span>(boxstyle<span class="op">=</span><span class="st">"round,pad=0.3"</span>, edgecolor<span class="op">=</span><span class="st">"black"</span>, facecolor<span class="op">=</span><span class="st">"lightgray"</span>))</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="co"># Centering the figure title</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">'Quadratic Relationship between Voltage, Current, and Power Loss'</span>, pad<span class="op">=</span><span class="dv">20</span>)</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/cell-2-output-1.png" width="644" height="484" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 <p>TLDR a 10x increase in <code>voltage</code> results in a 100x less power lost because less <code>current</code> means less power lost to heat!</p>
 </section>
 </section>
@@ -232,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="transmission.png" class="img-fluid figure-img"></p>
-<figcaption>transmission.png</figcaption>
+<figcaption>Fig 1 - diagram of energy transmission</figcaption>
 </figure>
 </div>
 <ul>

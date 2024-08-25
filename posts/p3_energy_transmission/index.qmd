@@ -61,6 +61,61 @@ Here’s the fancy workaround trick engineers use to maximize energy transfer:
         1. using `I = P / V` to calculate `current`, `1,000,000 W / 100,000 V = 10 A` 
         2. using `P = I^2 * R` to calculate `power loss`, `(10 A)^2 * 10 Ω = 1,000 W` of power lost to resistance
     
+```{python}
+import matplotlib.pyplot as plt
+
+# Provided definitions
+def calculate_current(power, voltage):
+    return power / voltage
+
+def calculate_power_lost(current, resistance):
+    return (current**2) * resistance
+
+# Initialization
+power_in_watts = 1000000
+resistance_in_ohms = 10
+low_voltage = 10000
+high_voltage = low_voltage * 10
+
+# Example 1 - power lost when using low_voltage
+low_voltage_current = calculate_current(power_in_watts, low_voltage)
+power_lost_to_low_voltage = calculate_power_lost(low_voltage_current, resistance_in_ohms)
+
+# Example 2 - power lost when using high_voltage
+high_voltage_current = calculate_current(power_in_watts, high_voltage)
+power_lost_to_high_voltage = calculate_power_lost(high_voltage_current, resistance_in_ohms)
+
+# Data for plotting
+voltages = [low_voltage, high_voltage]
+currents = [low_voltage_current, high_voltage_current]
+power_losses = [power_lost_to_low_voltage, power_lost_to_high_voltage]
+
+# Plotting the results
+fig, ax1 = plt.subplots()
+
+ax2 = ax1.twinx()
+ax1.plot(voltages, currents, 'g-', marker='o', label="Current (A)")
+ax2.plot(voltages, power_losses, 'b-', marker='o', label="Power Loss (W)")
+
+ax1.set_xlabel('Voltage (V)')
+ax1.set_ylabel('Current (A)', color='g')
+ax2.set_ylabel('Power Loss (W)', color='b')
+
+# Adjusting the scale of the power loss axis to show quadratic relationship
+ax2.set_yscale('log')
+
+# Adding an index to the side to show exact values
+for i, (v, c, p) in enumerate(zip(voltages, currents, power_losses)):
+    ax1.annotate(f'V: {v}\nI: {c:.2f} A\nP_loss: {p:.2e} W',
+                 xy=(v, c), xytext=(5, -10 - 30 * i),
+                 textcoords='offset points', ha='center', va='center',
+                 fontsize=9, color='black', bbox=dict(boxstyle="round,pad=0.3", edgecolor="black", facecolor="lightgray"))
+
+# Centering the figure title
+plt.title('Quadratic Relationship between Voltage, Current, and Power Loss', pad=20)
+
+plt.show()
+```
 
 TLDR a 10x increase in `voltage` results in a 100x less power lost because less `current`  means less power lost to heat!
 
