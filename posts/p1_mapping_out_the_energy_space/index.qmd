@@ -1,5 +1,5 @@
 ---
-title: "Understanding Energy Sub-Sectors: Part 1"
+title: "Understanding Energy Sub-Sectors: [PART 1]"
 author: "Jay Lowe"
 date: "2024-08-10"
 categories: ["energy", "ai", "series"]

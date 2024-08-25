@@ -1,5 +1,5 @@
 ---
-title: "How the heck do we transmit energy?"
+title: "How the Heck Do We Transmit Energy: [PART 3]"
 author: "Jay Lowe"
 date: "2024-08-24"
 categories: ["energy", "ai", "series"]
