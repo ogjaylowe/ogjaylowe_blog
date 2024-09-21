@@ -14,7 +14,7 @@ jupyter: python3
 
 > How hydroelectric dams produce energy and the way Idaho uses it to power the majority of its cities
 
-# **DAMS DAMS DAMS [PART 2]**
+---
 
 Now that energy sectors [have been broken down](../p1_mapping_out_the_energy_space/index.qmd), let's start exploring energy sources.
 

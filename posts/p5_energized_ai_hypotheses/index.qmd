@@ -1,0 +1,150 @@
+---
+title: "Energized AI Hypotheses - [PART 5]"
+author: "Jay Lowe"
+date: "2024-09-07"
+categories: ["energy", "ai", "series"]
+image: "einstein.jpg"
+format:
+  html:
+    code-fold: false
+jupyter: python3
+---
+
+##### Article Summary
+
+> Explore conventional and innovative applications of AI in the energy sector
+
+---
+
+## Exploring AI profit margin improvement plays in the power sector
+
+At this point in the series, we’ve covered:
+
+- [a high level exploration of the energy sub-sectors](../p1_mapping_out_the_energy_space)
+- [a deep dive into dams and the mechanics of hydroelectric energy generation](../p2_hydro_electric_power_part)
+- [the mechanics of energy transmission and how the grid operates as whole](posts/p3_energy_transmission)
+- [grid congestion occurs and the major regulation players involved with day-to-day power operations](/Users/jaylowe/Projects/levelseven/quarto_blog/posts/p4_by_the_power_of_regulation)
+
+So where does AI solutions and products fit into any of this?
+
+I think of AI products and solutions as fitting one of two buisness case archtypes:
+
+- products and solutions that increase an existing business's profit margins
+- products and solutions that create a new capability and leads to previously impossible functionality and/or revenue streams
+
+I talk about my opinions on the [two archtypes more in this post](../p6_margin_plays_suck) but TLDR I think the former sucks.
+
+## Using AI to improve profit margins for solutions that currently exist
+
+### Predictive solutions
+
+In almost every aspect of the energy sector stack we see a need of predictive methods. Anything that requires maintenance could probably benefit from improved efficiency and a typical tech dashboard. I’m trying not to roll my eyes writing this one.
+
+As new energy sources such as solar and wind become available, these new facilities will benefit from weather predictions impacting their generation capabilities and optimizing storage systems for fluctuations in generation windows.
+
+Most business cases would be along the lines of, “improve margins for X by increasing uptime, providing more stable power during peak hours, performing maintenance operations during downtime, stopping lost cash during unexpected downtime etc.”
+
+I would add water resource management type solutions that predict climate related variables such as water availability (snowpack + rainfall), reservoir management and irrigation, and whatever other long-term climate factors that impacts water production.
+
+### Smarter distribution solutions
+
+Think anything that makes it more efficient to move or use energy in areas that need it at time of demand.
+
+Business case would be similar to predictive solutions in that users improve business margins by making sure existing capabilities get used to maximum performance.
+
+### Consumer energy efficiency solutions
+
+Anything personalized or tailored to individual consumers that improves energy consumption based on their usage pattern will probably be an effective business case.
+
+Business case would be, “you save X% on your energy, feel good about being a smaller consumer, and we get some type of kickback”.
+
+### Cybersecurity improvement solutions
+
+Each of the regulation bodies has to deal with cybersecurity in some fashion. AI can be extremely powerful when it comes to detecting and responding to cyber threats—including vulnerability / penetration testing or simulation scenarios.
+
+Another simple business case of, “we protect your shit so the American government doesn’t crash”
+
+### Regulatory compliance and reporting solutions
+
+People don’t perform stare-and-compare actions well and AI has a great working knowledge of compliance databases.
+
+Anything that automates data collection or improves report generation accuracy will probably be successful.
+
+Real-time monitoring operations and prediction of potential compliance issues can be layered in for extra value.
+
+A more complex business case that can go towards improving margins through reduction of seasonal workers and/or time to compliance.
+
+## Using AI to innovate and create new capabilities previously unavailable
+
+I feel like most people agree that adding new capabilities and features with technologies tends to add the most value to the market—but they also tend to be the hardest to build effectively.
+
+With that in mind I thought it would be a good exercise to hypothesize some ways that AI-centric companies can be built to serve the energy sector.
+
+### Micro-hydro opportunities
+
+Public rivers such as the Idaho Snake River often run adjacent to or through private properties. I’m not sure of the exact legal ramifications, but individuals could leverage an AI-driven platform that helps them to identify and monetize micro-hydro opportunities.
+
+The algorithms would essentially:
+
+- analyze various satellite and terrain data to identify potential micro-hydro sites
+- connect property owners with either equipment distributors or some other capital investor
+- ensure new energy produced would be optimally added to the existing grid
+- cooperate with electricity market makers for a fair energy rate
+
+Might not be possible but sounds cool!
+
+### AI-powered energy futures market
+
+This one leans towards web3 crypto style thinking, but a futures market which enables individuals / business to hedge against future energy prices and availability could be super cool.
+
+It would go something like this:
+
+- algorithms predict hyper-local energy prices and availability based on various factors
+- anybody can “buy” future energy allocations at the price predicted during purchase time
+- energy allocations can be exercised
+- all the typical derivatives associated with a futures market can be enabled for more complex trading processes
+
+### Mobile solar farm deployment swarms
+
+Solar panels have continued to get smaller, more efficient, and easier to use. 
+
+AI drone swarm technology has also arrived at an impressive capability point.
+
+Therefore, the product combines these two concepts as such:
+
+- algorithms determine optimal locations for temporary solar energy capture
+- modular drone swarm of mobile solar panels moves to these locations on an efficient logistical route
+- this dynamic solar infrastructure maximizes renewable energy in areas previously unusable and can be moved to new areas easily during seasons of low energy generation
+
+I’m imagining some Call of Duty or James Bond villain level shenanigans with this idea but it could be a great way to rapidly expand the grid in high-demand areas during peak usage time periods without letting capital get sunk in seasonal usage areas.
+
+### Cybersecurity digital twin of the energy grid
+
+Digital twin companies have been having their hay day and it can apply to the energy grid as well.
+
+The product would go something like this:
+
+- AI maintained real-time digital twin of a state’s energy system in a sector-by-sector or state-wide view
+- various cybersecurity war games and exercises could be performed on the digital twin without risk to the real world system
+- AI agents simulate attacks to better understand threats and vulnerabilities
+
+### Hydroelectric edge computing network data centers
+
+This one has a hardware component but a network of hydroelectric-powered edge devices distributed across public waterways could act as a new form of data center
+
+- algorithms determine optimal placement of small data centers near hydroelectric sources
+- excess hydroelectric capacity directly transfers to the facility and becomes a green compute power resource that can be sold as usual
+- AI systems manage workload distribution based on real-time energy flucations
+
+Meets growing demands for sustainable cloud computing while leveraging hydroelectric oversupply in low-demand areas.
+
+## Conclusion
+
+The energy sector operates as one of the largest market sectors in the world and has many ripe opportunities.
+
+Simple profit margin plays can be made galore, but with a bit of clever thinking AI can be used to create new niches previously impossible that lead to new capabilities.
+
+
+## Next up to read
+
+The series has concluded but read up on my thoughts about [what makes a good or bad AI business](../p6_margin_plays_suck)

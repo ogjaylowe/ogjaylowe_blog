@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jay Lowe">
+<meta name="dcterms.date" content="2024-08-31">
 
-<title>Home – Jay Lowe’s Blog</title>
+<title>By the Power of Regulation - [PART 4] – Jay Lowe’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Jay Lowe’s Blog</span>
     </a>
   </div>
@@ -150,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -176,280 +118,134 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Home</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="ai">ai <span class="quarto-category-count">(6)</span></div><div class="category" data-category="energy">energy <span class="quarto-category-count">(6)</span></div><div class="category" data-category="series">series <span class="quarto-category-count">(6)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">By the Power of Regulation - [PART 4]</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">energy</div>
+    <div class="quarto-category">ai</div>
+    <div class="quarto-category">series</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jay Lowe </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 31, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="article-summary" class="level5">
+<h5 class="anchored" data-anchor-id="article-summary">Article Summary</h5>
+<blockquote class="blockquote">
+<p>Learn how the powergrid gets congested and the regulation bodies responsible for all things powergrid related</p>
+</blockquote>
+<hr>
+<p>We know where energy comes from, and we know how to can be transmitted—but how does new energy get added to the grid and whom controls it?</p>
+</section>
+<section id="the-grid" class="level2">
+<h2 class="anchored" data-anchor-id="the-grid">The grid</h2>
+<p>Similar to the internet, the nations power grid operates as a vast network of transmission cables and routing substations to deliver electricity from producer to consumer. The three primary components include:</p>
+<ul>
+<li>generation</li>
+<li>transmission (high-voltage lines between producers)</li>
+<li>distribution (low-voltage lines to consumers)</li>
+</ul>
+<section id="congestion" class="level3">
+<h3 class="anchored" data-anchor-id="congestion">Congestion</h3>
+<p>Physical limitations in the grid mean the amount of power available in an area will always have a cap on it.</p>
+<p>Often times during certain times of a season or during major events, demands for electricity will exceed the capacity of the grid for a short time.</p>
+<p>Worst case scenario would be excess power generation, in a low demand area, with insufficient transmission capacity to move it to areas of high demand.</p>
+<p>Outages in production, or temporary maintenance of a line, will increase electrical load on remaining lines.</p>
+<p>Bottlenecks will form in areas that contain multiple lines converging—leading to higher levels of energy congestion.</p>
+</section>
+</section>
+<section id="connecting-to-the-grid" class="level2">
+<h2 class="anchored" data-anchor-id="connecting-to-the-grid">Connecting to the grid</h2>
+<p>When a new power generation facility, such as a wind farm or new hydroelectric dam, finishes production—transmission lines will be connected from the new facilities step-up transformer (matching existing voltage and frequency) to the nearest substation.</p>
+<p>Once hooked up to the grid, the new production facility will gradually increase power output until complete synchronization!</p>
+</section>
+<section id="regulating-the-grid" class="level2">
+<h2 class="anchored" data-anchor-id="regulating-the-grid">Regulating the grid</h2>
+<p>Power is power, so-to-speak, and everybody wants it! As a result, several large governing bodies have to be involved with any major power change:</p>
+<ul>
+<li>Federal Energy Regulatory Commission (FERC): an independent agency which regulates the interstate transmission of electricity and oversees wholesale electricity markets
+<ul>
+<li>ex: the FERC would approve a proposal to build new interstate transmission lines between Arizona and California</li>
+</ul></li>
+<li>North American Electric Reliability Corporation (NERC): A non-profit organization that develops and enforces reliability standards for the bulk power system in North America
+<ul>
+<li>ex: NERC developed and enforced a new cybersecurity standard for power grid operators after a series of attempted cyberattacks on utility companies.</li>
+</ul></li>
+<li>Regional Transmission Organizations (RTOs) and Independent System Operators (ISOs): non-profit organizations that coordinate, control, and monitor the electric grid across multiple states and helps manage the wholesale electricity markets to ensure reliable operation of the grid
+<ul>
+<li>ex: during heatwaves in the Midwest, the Midcontinent Independent System Operator (MISO) coordinates with power plants across several states to increase electricity generation and manage the grid to prevent blackouts</li>
+</ul></li>
+<li>State Public Utility Commissions (PUCs): state-level agencies that regulate the retail electricity markets and oversee the operations of utilities within their state
+<ul>
+<li>ex: The California Public Utilities Commission (CPUC) approved a rate increase for a major utility company to fund wildfire prevention measures</li>
+</ul></li>
+<li>Local utilities: companies responsible for the final distribution of electricity to end-users and maintaining the local distribution infrastructure
+<ul>
+<li>ex: A municipal utility located within a small town in Oregon implemented a smart meter program for all its customers, allowing for more accurate billing</li>
+</ul></li>
+</ul>
+<p>These governing bodies have created various frameworks to understand and control the market forces that dictate when new energy needs to be produced, how it will transfer there, and who will get to use it.</p>
+<p>RTOs and ISOs have algorithms and market mechanisms to optimize how much energy powers plant should be producing and the capacity of operation required to meet market demands.</p>
+<section id="how-this-maps-to-the-great-state-of-idaho" class="level3">
+<h3 class="anchored" data-anchor-id="how-this-maps-to-the-great-state-of-idaho">How this maps to the great state of Idaho</h3>
+<p>Due to its heavy reliance on hydroelectric power, Idaho’s energy landscape has a relatively simple regulatory framework compared to states with multiple overlapping RTOs or ISOs.</p>
+<p>Here’s how it breaks down:</p>
+<ol type="1">
+<li>FERC: Issues licensing and oversees projects the Snake River as it is considered a major interstate water resource and therefore everything utilizing it must be built within compliance of federal regulation.</li>
+<li>NERC: Idaho falls under the Western Electricity Coordinating Council (WECC), which is the regional entity of NERC responsible for coordinating and promoting bulk electric system reliability in the Western Interconnection.</li>
+<li>RTO/ISO: Idaho does not belong to any Regional Transmission Organization (RTO) or Independent System Operator (ISO). Most of the state’s transmission system is operated by individual utilities</li>
+<li>PUC (Public Utilities Commission): Idaho has one state-level regulatory body— theIdaho Public Utilities Commission (IPUC)</li>
+<li>Major Utilities in Idaho: While not regulatory bodies themselves, these are the main companies regulated by the IPUC:
+<ul>
+<li>Idaho Power Company</li>
+<li>Avista Utilities</li>
+<li>Rocky Mountain Power (a division of PacifiCorp)</li>
+<li>Fall River Rural Electric Cooperative</li>
+<li>Kootenai Electric Cooperative</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="next-up-to-read" class="level2">
+<h2 class="anchored" data-anchor-id="next-up-to-read">Next up to read</h2>
+<p>The series concludes and everything written about <a href="../../posts/p5_energized_ai_hypotheses/index.html">comes together in a series of innovative product summaries and ideas</a>!</p>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="energy,ai,series" data-listing-date-sort="1726902000000" data-listing-file-modified-sort="1726947330056" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="525">
-<div class="thumbnail">
-<p><a href="./posts/p6_margin_plays_suck/index.html" class="no-external"></a></p><a href="./posts/p6_margin_plays_suck/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p6_margin_plays_suck/sucks.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/p6_margin_plays_suck/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p6_margin_plays_suck/index.html" class="no-external">AI businesses built to be profit margin plays suck</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p6_margin_plays_suck/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p6_margin_plays_suck/index.html" class="no-external">Understand how energy transmission works from a fundamental perspective</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p6_margin_plays_suck/index.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="energy,ai,series" data-listing-date-sort="1725692400000" data-listing-file-modified-sort="1726947239331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1118">
-<div class="thumbnail">
-<p><a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external"></a></p><a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p5_energized_ai_hypotheses/einstein.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external">Energized AI Hypotheses - [PART 5]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external">Explore conventional and innovative applications of AI in the energy sector</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external">
-<div class="listing-date">
-Sep 7, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="energy,ai,series" data-listing-date-sort="1725087600000" data-listing-file-modified-sort="1726946681437" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="803">
-<div class="thumbnail">
-<p><a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external"></a></p><a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p4_by_the_power_of_regulation/greyskull.jpeg" class="thumbnail-image"></p>
-</a><p><a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external">By the Power of Regulation - [PART 4]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external">Learn how the powergrid gets congested and the regulation bodies responsible for all things powergrid related</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external">
-<div class="listing-date">
-Aug 31, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="energy,ai,series" data-listing-date-sort="1724482800000" data-listing-file-modified-sort="1726946619338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1150">
-<div class="thumbnail">
-<p><a href="./posts/p3_energy_transmission/index.html" class="no-external"></a></p><a href="./posts/p3_energy_transmission/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p3_energy_transmission/image 2.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/p3_energy_transmission/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">How the Heck Do We Transmit Energy: [PART 3]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">Understand how energy transmission works from a fundamental perspective</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">
-<div class="listing-date">
-Aug 24, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="energy,ai,series" data-listing-date-sort="1723878000000" data-listing-file-modified-sort="1726945939723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1012">
-<div class="thumbnail">
-<p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a></p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p2_hydro_electric_power_part/Hydro_Powerplant_Flow.gif" class="thumbnail-image"></p>
-</a><p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">DAMS DAMS DAMS: [PART 2]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">How hydroelectric dams produce energy and the way Idaho uses it to power the majority of its cities</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">
-<div class="listing-date">
-Aug 17, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="energy,ai,series" data-listing-date-sort="1723273200000" data-listing-file-modified-sort="1726945907929" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1324">
-<div class="thumbnail">
-<p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a></p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p1_mapping_out_the_energy_space/sunburst.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">Understanding Energy Sub-Sectors: [PART 1]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">Understand the energy market’s sub-sectors and how the market as a whole connects together</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">
-<div class="listing-date">
-Aug 10, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <div>
     <hr>
     

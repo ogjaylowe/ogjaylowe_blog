@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jay Lowe">
+<meta name="dcterms.date" content="2024-09-07">
 
-<title>Home – Jay Lowe’s Blog</title>
+<title>Energized AI Hypotheses - [PART 5] – Jay Lowe’s Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Jay Lowe’s Blog</span>
     </a>
   </div>
@@ -150,7 +92,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -176,280 +118,178 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Home</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="ai">ai <span class="quarto-category-count">(6)</span></div><div class="category" data-category="energy">energy <span class="quarto-category-count">(6)</span></div><div class="category" data-category="series">series <span class="quarto-category-count">(6)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Energized AI Hypotheses - [PART 5]</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">energy</div>
+    <div class="quarto-category">ai</div>
+    <div class="quarto-category">series</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jay Lowe </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 7, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="article-summary" class="level5">
+<h5 class="anchored" data-anchor-id="article-summary">Article Summary</h5>
+<blockquote class="blockquote">
+<p>Explore conventional and innovative applications of AI in the energy sector</p>
+</blockquote>
+<hr>
+</section>
+<section id="exploring-ai-profit-margin-improvement-plays-in-the-power-sector" class="level2">
+<h2 class="anchored" data-anchor-id="exploring-ai-profit-margin-improvement-plays-in-the-power-sector">Exploring AI profit margin improvement plays in the power sector</h2>
+<p>At this point in the series, we’ve covered:</p>
+<ul>
+<li><a href="../p1_mapping_out_the_energy_space">a high level exploration of the energy sub-sectors</a></li>
+<li><a href="../p2_hydro_electric_power_part">a deep dive into dams and the mechanics of hydroelectric energy generation</a></li>
+<li><a href="posts/p3_energy_transmission">the mechanics of energy transmission and how the grid operates as whole</a></li>
+<li><a href="../../Users/jaylowe/Projects/levelseven/quarto_blog/posts/p4_by_the_power_of_regulation">grid congestion occurs and the major regulation players involved with day-to-day power operations</a></li>
+</ul>
+<p>So where does AI solutions and products fit into any of this?</p>
+<p>I think of AI products and solutions as fitting one of two buisness case archtypes:</p>
+<ul>
+<li>products and solutions that increase an existing business’s profit margins</li>
+<li>products and solutions that create a new capability and leads to previously impossible functionality and/or revenue streams</li>
+</ul>
+<p>I talk about my opinions on the <a href="../p6_margin_plays_suck">two archtypes more in this post</a> but TLDR I think the former sucks.</p>
+</section>
+<section id="using-ai-to-improve-profit-margins-for-solutions-that-currently-exist" class="level2">
+<h2 class="anchored" data-anchor-id="using-ai-to-improve-profit-margins-for-solutions-that-currently-exist">Using AI to improve profit margins for solutions that currently exist</h2>
+<section id="predictive-solutions" class="level3">
+<h3 class="anchored" data-anchor-id="predictive-solutions">Predictive solutions</h3>
+<p>In almost every aspect of the energy sector stack we see a need of predictive methods. Anything that requires maintenance could probably benefit from improved efficiency and a typical tech dashboard. I’m trying not to roll my eyes writing this one.</p>
+<p>As new energy sources such as solar and wind become available, these new facilities will benefit from weather predictions impacting their generation capabilities and optimizing storage systems for fluctuations in generation windows.</p>
+<p>Most business cases would be along the lines of, “improve margins for X by increasing uptime, providing more stable power during peak hours, performing maintenance operations during downtime, stopping lost cash during unexpected downtime etc.”</p>
+<p>I would add water resource management type solutions that predict climate related variables such as water availability (snowpack + rainfall), reservoir management and irrigation, and whatever other long-term climate factors that impacts water production.</p>
+</section>
+<section id="smarter-distribution-solutions" class="level3">
+<h3 class="anchored" data-anchor-id="smarter-distribution-solutions">Smarter distribution solutions</h3>
+<p>Think anything that makes it more efficient to move or use energy in areas that need it at time of demand.</p>
+<p>Business case would be similar to predictive solutions in that users improve business margins by making sure existing capabilities get used to maximum performance.</p>
+</section>
+<section id="consumer-energy-efficiency-solutions" class="level3">
+<h3 class="anchored" data-anchor-id="consumer-energy-efficiency-solutions">Consumer energy efficiency solutions</h3>
+<p>Anything personalized or tailored to individual consumers that improves energy consumption based on their usage pattern will probably be an effective business case.</p>
+<p>Business case would be, “you save X% on your energy, feel good about being a smaller consumer, and we get some type of kickback”.</p>
+</section>
+<section id="cybersecurity-improvement-solutions" class="level3">
+<h3 class="anchored" data-anchor-id="cybersecurity-improvement-solutions">Cybersecurity improvement solutions</h3>
+<p>Each of the regulation bodies has to deal with cybersecurity in some fashion. AI can be extremely powerful when it comes to detecting and responding to cyber threats—including vulnerability / penetration testing or simulation scenarios.</p>
+<p>Another simple business case of, “we protect your shit so the American government doesn’t crash”</p>
+</section>
+<section id="regulatory-compliance-and-reporting-solutions" class="level3">
+<h3 class="anchored" data-anchor-id="regulatory-compliance-and-reporting-solutions">Regulatory compliance and reporting solutions</h3>
+<p>People don’t perform stare-and-compare actions well and AI has a great working knowledge of compliance databases.</p>
+<p>Anything that automates data collection or improves report generation accuracy will probably be successful.</p>
+<p>Real-time monitoring operations and prediction of potential compliance issues can be layered in for extra value.</p>
+<p>A more complex business case that can go towards improving margins through reduction of seasonal workers and/or time to compliance.</p>
+</section>
+</section>
+<section id="using-ai-to-innovate-and-create-new-capabilities-previously-unavailable" class="level2">
+<h2 class="anchored" data-anchor-id="using-ai-to-innovate-and-create-new-capabilities-previously-unavailable">Using AI to innovate and create new capabilities previously unavailable</h2>
+<p>I feel like most people agree that adding new capabilities and features with technologies tends to add the most value to the market—but they also tend to be the hardest to build effectively.</p>
+<p>With that in mind I thought it would be a good exercise to hypothesize some ways that AI-centric companies can be built to serve the energy sector.</p>
+<section id="micro-hydro-opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="micro-hydro-opportunities">Micro-hydro opportunities</h3>
+<p>Public rivers such as the Idaho Snake River often run adjacent to or through private properties. I’m not sure of the exact legal ramifications, but individuals could leverage an AI-driven platform that helps them to identify and monetize micro-hydro opportunities.</p>
+<p>The algorithms would essentially:</p>
+<ul>
+<li>analyze various satellite and terrain data to identify potential micro-hydro sites</li>
+<li>connect property owners with either equipment distributors or some other capital investor</li>
+<li>ensure new energy produced would be optimally added to the existing grid</li>
+<li>cooperate with electricity market makers for a fair energy rate</li>
+</ul>
+<p>Might not be possible but sounds cool!</p>
+</section>
+<section id="ai-powered-energy-futures-market" class="level3">
+<h3 class="anchored" data-anchor-id="ai-powered-energy-futures-market">AI-powered energy futures market</h3>
+<p>This one leans towards web3 crypto style thinking, but a futures market which enables individuals / business to hedge against future energy prices and availability could be super cool.</p>
+<p>It would go something like this:</p>
+<ul>
+<li>algorithms predict hyper-local energy prices and availability based on various factors</li>
+<li>anybody can “buy” future energy allocations at the price predicted during purchase time</li>
+<li>energy allocations can be exercised</li>
+<li>all the typical derivatives associated with a futures market can be enabled for more complex trading processes</li>
+</ul>
+</section>
+<section id="mobile-solar-farm-deployment-swarms" class="level3">
+<h3 class="anchored" data-anchor-id="mobile-solar-farm-deployment-swarms">Mobile solar farm deployment swarms</h3>
+<p>Solar panels have continued to get smaller, more efficient, and easier to use.</p>
+<p>AI drone swarm technology has also arrived at an impressive capability point.</p>
+<p>Therefore, the product combines these two concepts as such:</p>
+<ul>
+<li>algorithms determine optimal locations for temporary solar energy capture</li>
+<li>modular drone swarm of mobile solar panels moves to these locations on an efficient logistical route</li>
+<li>this dynamic solar infrastructure maximizes renewable energy in areas previously unusable and can be moved to new areas easily during seasons of low energy generation</li>
+</ul>
+<p>I’m imagining some Call of Duty or James Bond villain level shenanigans with this idea but it could be a great way to rapidly expand the grid in high-demand areas during peak usage time periods without letting capital get sunk in seasonal usage areas.</p>
+</section>
+<section id="cybersecurity-digital-twin-of-the-energy-grid" class="level3">
+<h3 class="anchored" data-anchor-id="cybersecurity-digital-twin-of-the-energy-grid">Cybersecurity digital twin of the energy grid</h3>
+<p>Digital twin companies have been having their hay day and it can apply to the energy grid as well.</p>
+<p>The product would go something like this:</p>
+<ul>
+<li>AI maintained real-time digital twin of a state’s energy system in a sector-by-sector or state-wide view</li>
+<li>various cybersecurity war games and exercises could be performed on the digital twin without risk to the real world system</li>
+<li>AI agents simulate attacks to better understand threats and vulnerabilities</li>
+</ul>
+</section>
+<section id="hydroelectric-edge-computing-network-data-centers" class="level3">
+<h3 class="anchored" data-anchor-id="hydroelectric-edge-computing-network-data-centers">Hydroelectric edge computing network data centers</h3>
+<p>This one has a hardware component but a network of hydroelectric-powered edge devices distributed across public waterways could act as a new form of data center</p>
+<ul>
+<li>algorithms determine optimal placement of small data centers near hydroelectric sources</li>
+<li>excess hydroelectric capacity directly transfers to the facility and becomes a green compute power resource that can be sold as usual</li>
+<li>AI systems manage workload distribution based on real-time energy flucations</li>
+</ul>
+<p>Meets growing demands for sustainable cloud computing while leveraging hydroelectric oversupply in low-demand areas.</p>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The energy sector operates as one of the largest market sectors in the world and has many ripe opportunities.</p>
+<p>Simple profit margin plays can be made galore, but with a bit of clever thinking AI can be used to create new niches previously impossible that lead to new capabilities.</p>
+</section>
+<section id="next-up-to-read" class="level2">
+<h2 class="anchored" data-anchor-id="next-up-to-read">Next up to read</h2>
+<p>The series has concluded but read up on my thoughts about <a href="../p6_margin_plays_suck">what makes a good or bad AI business</a></p>
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="energy,ai,series" data-listing-date-sort="1726902000000" data-listing-file-modified-sort="1726947330056" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="525">
-<div class="thumbnail">
-<p><a href="./posts/p6_margin_plays_suck/index.html" class="no-external"></a></p><a href="./posts/p6_margin_plays_suck/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p6_margin_plays_suck/sucks.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/p6_margin_plays_suck/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p6_margin_plays_suck/index.html" class="no-external">AI businesses built to be profit margin plays suck</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p6_margin_plays_suck/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p6_margin_plays_suck/index.html" class="no-external">Understand how energy transmission works from a fundamental perspective</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p6_margin_plays_suck/index.html" class="no-external">
-<div class="listing-date">
-Sep 21, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="energy,ai,series" data-listing-date-sort="1725692400000" data-listing-file-modified-sort="1726947239331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1118">
-<div class="thumbnail">
-<p><a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external"></a></p><a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p5_energized_ai_hypotheses/einstein.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external">Energized AI Hypotheses - [PART 5]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external">Explore conventional and innovative applications of AI in the energy sector</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p5_energized_ai_hypotheses/index.html" class="no-external">
-<div class="listing-date">
-Sep 7, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="energy,ai,series" data-listing-date-sort="1725087600000" data-listing-file-modified-sort="1726946681437" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="803">
-<div class="thumbnail">
-<p><a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external"></a></p><a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p4_by_the_power_of_regulation/greyskull.jpeg" class="thumbnail-image"></p>
-</a><p><a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external">By the Power of Regulation - [PART 4]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external">Learn how the powergrid gets congested and the regulation bodies responsible for all things powergrid related</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p4_by_the_power_of_regulation/index.html" class="no-external">
-<div class="listing-date">
-Aug 31, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="energy,ai,series" data-listing-date-sort="1724482800000" data-listing-file-modified-sort="1726946619338" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1150">
-<div class="thumbnail">
-<p><a href="./posts/p3_energy_transmission/index.html" class="no-external"></a></p><a href="./posts/p3_energy_transmission/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p3_energy_transmission/image 2.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/p3_energy_transmission/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">How the Heck Do We Transmit Energy: [PART 3]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">Understand how energy transmission works from a fundamental perspective</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p3_energy_transmission/index.html" class="no-external">
-<div class="listing-date">
-Aug 24, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="energy,ai,series" data-listing-date-sort="1723878000000" data-listing-file-modified-sort="1726945939723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1012">
-<div class="thumbnail">
-<p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a></p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p2_hydro_electric_power_part/Hydro_Powerplant_Flow.gif" class="thumbnail-image"></p>
-</a><p><a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">DAMS DAMS DAMS: [PART 2]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">How hydroelectric dams produce energy and the way Idaho uses it to power the majority of its cities</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p2_hydro_electric_power_part/index.html" class="no-external">
-<div class="listing-date">
-Aug 17, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="energy,ai,series" data-listing-date-sort="1723273200000" data-listing-file-modified-sort="1726945907929" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1324">
-<div class="thumbnail">
-<p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a></p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/p1_mapping_out_the_energy_space/sunburst.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">Understanding Energy Sub-Sectors: [PART 1]</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('energy'); return false;">
-energy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ai'); return false;">
-ai
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('series'); return false;">
-series
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">Understand the energy market’s sub-sectors and how the market as a whole connects together</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/p1_mapping_out_the_energy_space/index.html" class="no-external">
-<div class="listing-date">
-Aug 10, 2024
-</div>
-<div class="listing-author">
-Jay Lowe
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <div>
     <hr>
     

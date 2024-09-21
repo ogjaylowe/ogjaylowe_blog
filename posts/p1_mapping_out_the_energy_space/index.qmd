@@ -14,7 +14,7 @@ jupyter: python3
 
 > Understand the energy market's sub-sectors and how the market as a whole connects together
 
-# Mapping out the energy space [PART 1]
+---
 
 A quick foreword—I’m an AI guy and I use it for lots of things.
 

@@ -1,0 +1,53 @@
+---
+title: "AI businesses built to be profit margin plays suck"
+author: "Jay Lowe"
+date: "2024-09-21"
+categories: ["energy", "ai", "series"]
+image: "sucks.jpg"
+format:
+  html:
+    code-fold: false
+jupyter: python3
+---
+
+##### Article Summary
+
+> Understand how energy transmission works from a fundamental perspective
+
+---
+
+I’ve had three conversations in the last week with colleagues on the topic of “good AI business concepts”, and each one has more-or-less gone this way:
+
+- convo starts off with “I have an idea and I’m doing x, y, and z for my minimum viable product (MVP)”
+- we outline how the MVP will solve a business case and that several other companies have done similar things in addressable markets that can be used for effective comparison
+- I talk about how in my personal experience this is going to probably suck to build and it’ll suck even more to make it into a real cash cow
+- we agree that somebody out there can probably do this (so why not “me”)
+- conversation ends and I’m glad that I’m not the one that has to build that MVP
+
+The tech industry has been 10x pilled for awhile now thanks to Peter Thiel and the main spin off derivatives. I agree 100% in the framework, and that the power law exists, but I have a bone to pick with building a company that exists in the “we improve X% and rake in Y% of that as a kickback” space.
+
+History has shown us that dozens of startups emerged in the last year built the idea of creating an AI product or service for an easy 10x on some critical part of an unsexy business vertical’s core offering and that companies can indeed be founded with solid venture capital. 
+
+So it’s not that AI profit margin plays can’t happen—it’s that they suck to build and I don’t want to be the one that does that.
+
+## Non-AI companies using AI to improve margin tend to be big winners
+
+I want this opinion piece to be cut by some great examples of start-ups built or leveraging AI to capitalize on some margin improvement business case as a compliment to their primary business venture to demonstrate that it AI can and should be used to improve productivity:
+
+- [watershed](https://watershed.com/) - layers in several different types of algorithms to further increase their decarbonization solution success rates
+- [veho](https://www.shipveho.com/about-us) - fundamentally a logistics company that employs AI to further push the improvements on their logistical solution offerings
+- [deel](https://www.deel.com/) - a payroll and compliance platform using AI to further improve the effectiveness of their compliance offerings
+
+## AI companies built to improve margin tend to suck
+
+- olive ai - attempted to automate and improve hospital related administrative tasks in an attempt to reduce costs—[rising to a four billion dollar evaluation and then shutting down](https://www.healthcaredive.com/news/olive-ai-shuts-down/698455/)
+- Atrium - 50% legal tech company, 50% AI innovation company, [100% closed down](https://news.ycombinator.com/item?id=22479886)
+- Clarifai (improving accuracy in visual recognition), [H20.ai](http://H20.ai) (improving business processes), Zume (improving the food industry) - AI driven companies still around today, and could have potentially strong exits, but all had to go through some form of restructure with major lay offs 😬
+
+The point of this section being—the space exists for a reason but it can be grueling to play in.
+
+TODO - some big AI winners and a blurb about deep tech is the play for making new features?
+
+## Next up to read
+
+Stay tuned for more!

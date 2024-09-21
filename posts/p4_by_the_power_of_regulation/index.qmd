@@ -1,0 +1,87 @@
+---
+title: "By the Power of Regulation - [PART 4]"
+author: "Jay Lowe"
+date: "2024-08-31"
+categories: ["energy", "ai", "series"]
+image: "greyskull.jpeg"
+format:
+  html:
+    code-fold: false
+jupyter: python3
+---
+
+##### Article Summary
+
+> Learn how the powergrid gets congested and the regulation bodies responsible for all things powergrid related
+
+---
+
+We know where energy comes from, and we know how to can be transmitted—but how does new energy get added to the grid and whom controls it?
+
+## The grid
+
+Similar to the internet, the nations power grid operates as a vast network of transmission cables and routing substations to deliver electricity from producer to consumer. The three primary components include:
+
+- generation
+- transmission (high-voltage lines between producers)
+- distribution (low-voltage lines to consumers)
+
+### Congestion
+
+Physical limitations in the grid mean the amount of power available in an area will always have a cap on it.
+
+Often times during certain times of a season or during major events, demands for electricity will exceed the capacity of the grid for a short time.
+
+Worst case scenario would be excess power generation, in a low demand area, with insufficient transmission capacity to move it to areas of high demand.
+
+Outages in production, or temporary maintenance of a line, will increase electrical load on remaining lines.
+
+Bottlenecks will form in areas that contain multiple lines converging—leading to higher levels of energy congestion.
+
+
+
+## Connecting to the grid
+
+When a new power generation facility, such as a wind farm or new hydroelectric dam, finishes production—transmission lines will be connected from the new facilities step-up transformer (matching existing voltage and frequency) to the nearest substation.
+
+Once hooked up to the grid, the new production facility will gradually increase power output until complete synchronization!
+
+## Regulating the grid
+
+Power is power, so-to-speak, and everybody wants it! As a result, several large governing bodies have to be involved with any major power change:
+
+- Federal Energy Regulatory Commission (FERC): an independent agency which regulates the interstate transmission of electricity and oversees wholesale electricity markets
+    - ex: the FERC would approve a proposal to build new interstate transmission lines between Arizona and California
+- North American Electric Reliability Corporation (NERC): A non-profit organization that develops and enforces reliability standards for the bulk power system in North America
+    - ex: NERC developed and enforced a new cybersecurity standard for power grid operators after a series of attempted cyberattacks on utility companies.
+- Regional Transmission Organizations (RTOs) and Independent System Operators (ISOs): non-profit organizations that coordinate, control, and monitor the electric grid across multiple states and helps manage the wholesale electricity markets to ensure reliable operation of the grid
+    - ex: during heatwaves in the Midwest, the Midcontinent Independent System Operator (MISO) coordinates with power plants across several states to increase electricity generation and manage the grid to prevent blackouts
+- State Public Utility Commissions (PUCs): state-level agencies that regulate the retail electricity markets and oversee the operations of utilities within their state
+    - ex: The California Public Utilities Commission (CPUC) approved a rate increase for a major utility company to fund wildfire prevention measures
+- Local utilities: companies responsible for the final distribution of electricity to end-users and maintaining the local distribution infrastructure
+    - ex: A municipal utility located within a small town in Oregon implemented a smart meter program for all its customers, allowing for more accurate billing
+
+These governing bodies have created various frameworks to understand and control the market forces that dictate when new energy needs to be produced, how it will transfer there, and who will get to use it.
+
+RTOs and ISOs have algorithms and market mechanisms to optimize how much energy powers plant should be producing and the capacity of operation required to meet market demands.
+
+### How this maps to the great state of Idaho
+
+Due to its heavy reliance on hydroelectric power, Idaho's energy landscape has a relatively simple regulatory framework compared to states with multiple overlapping RTOs or ISOs.
+
+Here’s how it breaks down:
+
+1. FERC: Issues licensing and oversees projects the Snake River as it is considered a major interstate water resource and therefore everything utilizing it must be built within compliance of federal regulation.
+2. NERC: Idaho falls under the Western Electricity Coordinating Council (WECC), which is the regional entity of NERC responsible for coordinating and promoting bulk electric system reliability in the Western Interconnection.
+3. RTO/ISO: Idaho does not belong to any Regional Transmission Organization (RTO) or Independent System Operator (ISO). Most of the state's transmission system is operated by individual utilities
+4. PUC (Public Utilities Commission): Idaho has one state-level regulatory body— theIdaho Public Utilities Commission (IPUC)
+5. Major Utilities in Idaho: While not regulatory bodies themselves, these are the main companies regulated by the IPUC:
+    - Idaho Power Company
+    - Avista Utilities
+    - Rocky Mountain Power (a division of PacifiCorp)
+    - Fall River Rural Electric Cooperative
+    - Kootenai Electric Cooperative
+
+## Next up to read
+
+The series concludes and everything written about [comes together in a series of innovative product summaries and ideas](../p5_energized_ai_hypotheses/index.qmd)!

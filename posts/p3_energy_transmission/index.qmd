@@ -14,11 +14,11 @@ jupyter: python3
 
 > Understand how energy transmission works from a fundamental perspective
 
-# How the heck do we transmit energy? [PART 3]
+---
 
 At a high level, electrical energy in the form of electromagnetic waves zips through the vacuum of space at the speed of light. But here on Earth, we have to shuffle energy along conductive materials such as copper wire. This physical route slows things down by a hefty amount!
 
-TLDR we gotta push it real good.
+TLDR we gotta push it real good!
 
 To effectively discuss and explain energy transfer processes, it's crucial to grasp these key concepts:
 
@@ -136,4 +136,4 @@ Let's follow the flow of energy as it moves from generator to home appliance:
 
 ## Next up to read
 
-Now that the fundamental mechanics of energy transmission has been covered, lets learn a bit more about how new energy sources get added to the grid—and whom wields the power!
+Now that the fundamental mechanics of energy transmission has been covered, lets learn a bit more about [how new energy sources get added to the grid—and whom wields the power](../p4_by_the_power_of_regulation/index.qmd)!

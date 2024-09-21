@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "How the Heck Do We Transmit Energy: [PART 3]\n\n\n\n\n\n\nenergy\n\n\nai\n\n\nseries\n\n\n\n\n\n\n\n\n\nAug 24, 2024\n\n\nJay Lowe\n\n\n\n\n\n\n\n\n\n\n\n\nDAMS DAMS DAMS: [PART 2]\n\n\n\n\n\n\nenergy\n\n\nai\n\n\nseries\n\n\n\n\n\n\n\n\n\nAug 17, 2024\n\n\nJay Lowe\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Energy Sub-Sectors: [PART 1]\n\n\n\n\n\n\nenergy\n\n\nai\n\n\nseries\n\n\n\n\n\n\n\n\n\nAug 10, 2024\n\n\nJay Lowe\n\n\n\n\n\n\nNo matching items"
+    "text": "AI businesses built to be profit margin plays suck\n\n\n\n\n\n\nenergy\n\n\nai\n\n\nseries\n\n\n\n\n\n\n\n\n\nSep 21, 2024\n\n\nJay Lowe\n\n\n\n\n\n\n\n\n\n\n\n\nEnergized AI Hypotheses - [PART 5]\n\n\n\n\n\n\nenergy\n\n\nai\n\n\nseries\n\n\n\n\n\n\n\n\n\nSep 7, 2024\n\n\nJay Lowe\n\n\n\n\n\n\n\n\n\n\n\n\nBy the Power of Regulation - [PART 4]\n\n\n\n\n\n\nenergy\n\n\nai\n\n\nseries\n\n\n\n\n\n\n\n\n\nAug 31, 2024\n\n\nJay Lowe\n\n\n\n\n\n\n\n\n\n\n\n\nHow the Heck Do We Transmit Energy: [PART 3]\n\n\n\n\n\n\nenergy\n\n\nai\n\n\nseries\n\n\n\n\n\n\n\n\n\nAug 24, 2024\n\n\nJay Lowe\n\n\n\n\n\n\n\n\n\n\n\n\nDAMS DAMS DAMS: [PART 2]\n\n\n\n\n\n\nenergy\n\n\nai\n\n\nseries\n\n\n\n\n\n\n\n\n\nAug 17, 2024\n\n\nJay Lowe\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Energy Sub-Sectors: [PART 1]\n\n\n\n\n\n\nenergy\n\n\nai\n\n\nseries\n\n\n\n\n\n\n\n\n\nAug 10, 2024\n\n\nJay Lowe\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -998,7 +998,7 @@
     "href": "posts/p3_energy_transmission/index.html",
     "title": "How the Heck Do We Transmit Energy: [PART 3]",
     "section": "",
-    "text": "Understand how energy transmission works from a fundamental perspective"
+    "text": "Understand how energy transmission works from a fundamental perspective\n\n\nAt a high level, electrical energy in the form of electromagnetic waves zips through the vacuum of space at the speed of light. But here on Earth, we have to shuffle energy along conductive materials such as copper wire. This physical route slows things down by a hefty amount!\nTLDR we gotta push it real good!\nTo effectively discuss and explain energy transfer processes, it’s crucial to grasp these key concepts:\n\nvoltage (V = I x R): similar to pressure in a water pipe, voltage can represent how much “push” an electrical charge will have with higher amounts of voltage corresponding to faster traveling times.\n\ncurrent (I): the current rate of travel energy will move through a conductive material at, with higher currents representing a higher rate of “electrical flow”\nresistance (R): the forces acting against the “electrical flow”, similar to friction\nNote: typically as voltage increases, current increases as well because in most contexts the physical conduit that energy travel along will remain the same unless the material gets replaced (or worn down by long periods of time)\n\nwatt (aka power, P = V x I): represents the rate of “pushing”, or work being done, will occur—with higher levels of power having more “push”, a higher rate of “push”, or both.\n\nNote: the relationship of voltage and power can also be represented as:\n\nP = (I × R) × I\nP = I^2 × R\nI = V / R\n\ncurrent is directly proportionate to resistance (double one and the other halves)\ndoubling the current quadruples the power (therefore power will always be sensitive to current)\n\n\nWhile P = V x I and P = I^2 × R operate in an algebraically equivalently manner:\n\nP = V x I represents the total power transmitted through a system\nP = I^2 × R represents the power lost as heat due to resistance, aka Joule heating\n\n\njoule (aka energy, E = integral of P over time): the total amount of energy that has flowed through the system, with higher joules representing more energy"
   },
   {
     "objectID": "posts/p3_energy_transmission/index.html#step-to-the-left-now-step-to-the-right",
@@ -1026,7 +1026,7 @@
     "href": "posts/p1_mapping_out_the_energy_space/index.html",
     "title": "Understanding Energy Sub-Sectors: [PART 1]",
     "section": "",
-    "text": "Understand the energy market’s sub-sectors and how the market as a whole connects together"
+    "text": "Understand the energy market’s sub-sectors and how the market as a whole connects together\n\n\nA quick foreword—I’m an AI guy and I use it for lots of things.\nWhile I don’t like to use it for writing, as it tends to create voiceless and untrustworthy text, it does one thing REALLY well….\n\n\n\nFig 1 - an okay meme\n\n\nClaude helped me to brainstorm the list (which I heavily curated and modified) that I’m using as my roadmap for understanding the energy market as a whole."
   },
   {
     "objectID": "posts/p1_mapping_out_the_energy_space/index.html#why-did-i-write-this",
@@ -1054,7 +1054,7 @@
     "href": "posts/p2_hydro_electric_power_part/index.html",
     "title": "DAMS DAMS DAMS: [PART 2]",
     "section": "",
-    "text": "How hydroelectric dams produce energy and the way Idaho uses it to power the majority of its cities"
+    "text": "How hydroelectric dams produce energy and the way Idaho uses it to power the majority of its cities\n\n\nNow that energy sectors have been broken down, let’s start exploring energy sources.\nSince the first human saw the first river, we’ve been doing everything we can to ruin them. Some might say it was a match made in heaven. In fact, 3000 BCE was the beginning of serious river fuckery—but honestly we’ve probably been doing it for longer than that!\n\nHydroelectric powerplants are the most efficient means of producing electric energy. The efficiency of today’s hydroelectric plant is about 90 percent\n\n\nU.S. Bureau of Reclamation. (n.d.). Hydropower program. U.S. Department of the Interior. Retrieved from https://www.usbr.gov/power/edu/pamphlet.pdf\n\nThat quote was taken before zoomers existed so hopefully we have achieved something higher than 90%.\nIn terms of “sexy and lucrative emerging business ventures”—dams score pretty low. Which makes it ripe for innovation!"
   },
   {
     "objectID": "posts/p2_hydro_electric_power_part/index.html#differentiating-types-of-hydroelectric-power-generation",
@@ -1076,5 +1076,131 @@
     "title": "DAMS DAMS DAMS: [PART 2]",
     "section": "What to read next",
     "text": "What to read next\nAn exploration on transformers and how energy works from a fundamental level!"
+  },
+  {
+    "objectID": "posts/p4_by_the_power_of_regulation/index.html",
+    "href": "posts/p4_by_the_power_of_regulation/index.html",
+    "title": "By the Power of Regulation - [PART 4]",
+    "section": "",
+    "text": "Learn how the powergrid gets congested and the regulation bodies responsible for all things powergrid related\n\n\nWe know where energy comes from, and we know how to can be transmitted—but how does new energy get added to the grid and whom controls it?"
+  },
+  {
+    "objectID": "posts/p4_by_the_power_of_regulation/index.html#the-grid",
+    "href": "posts/p4_by_the_power_of_regulation/index.html#the-grid",
+    "title": "By the Power of Regulation - [PART 4]",
+    "section": "The grid",
+    "text": "The grid\nSimilar to the internet, the nations power grid operates as a vast network of transmission cables and routing substations to deliver electricity from producer to consumer. The three primary components include:\n\ngeneration\ntransmission (high-voltage lines between producers)\ndistribution (low-voltage lines to consumers)\n\n\nCongestion\nPhysical limitations in the grid mean the amount of power available in an area will always have a cap on it.\nOften times during certain times of a season or during major events, demands for electricity will exceed the capacity of the grid for a short time.\nWorst case scenario would be excess power generation, in a low demand area, with insufficient transmission capacity to move it to areas of high demand.\nOutages in production, or temporary maintenance of a line, will increase electrical load on remaining lines.\nBottlenecks will form in areas that contain multiple lines converging—leading to higher levels of energy congestion."
+  },
+  {
+    "objectID": "posts/p4_by_the_power_of_regulation/index.html#connecting-to-the-grid",
+    "href": "posts/p4_by_the_power_of_regulation/index.html#connecting-to-the-grid",
+    "title": "By the Power of Regulation - [PART 4]",
+    "section": "Connecting to the grid",
+    "text": "Connecting to the grid\nWhen a new power generation facility, such as a wind farm or new hydroelectric dam, finishes production—transmission lines will be connected from the new facilities step-up transformer (matching existing voltage and frequency) to the nearest substation.\nOnce hooked up to the grid, the new production facility will gradually increase power output until complete synchronization!"
+  },
+  {
+    "objectID": "posts/p4_by_the_power_of_regulation/index.html#regulating-the-grid",
+    "href": "posts/p4_by_the_power_of_regulation/index.html#regulating-the-grid",
+    "title": "By the Power of Regulation - [PART 4]",
+    "section": "Regulating the grid",
+    "text": "Regulating the grid\nPower is power, so-to-speak, and everybody wants it! As a result, several large governing bodies have to be involved with any major power change:\n\nFederal Energy Regulatory Commission (FERC): an independent agency which regulates the interstate transmission of electricity and oversees wholesale electricity markets\n\nex: the FERC would approve a proposal to build new interstate transmission lines between Arizona and California\n\nNorth American Electric Reliability Corporation (NERC): A non-profit organization that develops and enforces reliability standards for the bulk power system in North America\n\nex: NERC developed and enforced a new cybersecurity standard for power grid operators after a series of attempted cyberattacks on utility companies.\n\nRegional Transmission Organizations (RTOs) and Independent System Operators (ISOs): non-profit organizations that coordinate, control, and monitor the electric grid across multiple states and helps manage the wholesale electricity markets to ensure reliable operation of the grid\n\nex: during heatwaves in the Midwest, the Midcontinent Independent System Operator (MISO) coordinates with power plants across several states to increase electricity generation and manage the grid to prevent blackouts\n\nState Public Utility Commissions (PUCs): state-level agencies that regulate the retail electricity markets and oversee the operations of utilities within their state\n\nex: The California Public Utilities Commission (CPUC) approved a rate increase for a major utility company to fund wildfire prevention measures\n\nLocal utilities: companies responsible for the final distribution of electricity to end-users and maintaining the local distribution infrastructure\n\nex: A municipal utility located within a small town in Oregon implemented a smart meter program for all its customers, allowing for more accurate billing\n\n\nThese governing bodies have created various frameworks to understand and control the market forces that dictate when new energy needs to be produced, how it will transfer there, and who will get to use it.\nRTOs and ISOs have algorithms and market mechanisms to optimize how much energy powers plant should be producing and the capacity of operation required to meet market demands.\n\nHow this maps to the great state of Idaho\nDue to its heavy reliance on hydroelectric power, Idaho’s energy landscape has a relatively simple regulatory framework compared to states with multiple overlapping RTOs or ISOs.\nHere’s how it breaks down:\n\nFERC: Issues licensing and oversees projects the Snake River as it is considered a major interstate water resource and therefore everything utilizing it must be built within compliance of federal regulation.\nNERC: Idaho falls under the Western Electricity Coordinating Council (WECC), which is the regional entity of NERC responsible for coordinating and promoting bulk electric system reliability in the Western Interconnection.\nRTO/ISO: Idaho does not belong to any Regional Transmission Organization (RTO) or Independent System Operator (ISO). Most of the state’s transmission system is operated by individual utilities\nPUC (Public Utilities Commission): Idaho has one state-level regulatory body— theIdaho Public Utilities Commission (IPUC)\nMajor Utilities in Idaho: While not regulatory bodies themselves, these are the main companies regulated by the IPUC:\n\nIdaho Power Company\nAvista Utilities\nRocky Mountain Power (a division of PacifiCorp)\nFall River Rural Electric Cooperative\nKootenai Electric Cooperative"
+  },
+  {
+    "objectID": "posts/p4_by_the_power_of_regulation/index.html#next-up-to-read",
+    "href": "posts/p4_by_the_power_of_regulation/index.html#next-up-to-read",
+    "title": "By the Power of Regulation - [PART 4]",
+    "section": "Next up to read",
+    "text": "Next up to read\nThe series concludes and everything written about comes together in a series of innovative product summaries and ideas!"
+  },
+  {
+    "objectID": "posts/p5_energized_ai_hypotheses/index.html",
+    "href": "posts/p5_energized_ai_hypotheses/index.html",
+    "title": "Energized AI Hypotheses - [PART 5]",
+    "section": "",
+    "text": "Explore conventional and innovative applications of AI in the energy sector"
+  },
+  {
+    "objectID": "posts/p5_energized_ai_hypotheses/index.html#the-grid",
+    "href": "posts/p5_energized_ai_hypotheses/index.html#the-grid",
+    "title": "By the Power of Regulation - [PART 4]",
+    "section": "The grid",
+    "text": "The grid\nSimilar to the internet, the nationals power grid operates as a vast network of transmission cables and routing substations to deliver electricity from producer to consumer. The three primary components include:\n\ngeneration\ntransmission (high-voltage lines between producers)\ndistribution (low-voltage lines to consumers)\n\n\nCongestion\nPhysical limitations in the grid mean the amount of power available in an area will always have a cap on it.\nOften times during certain times of a season or during major events, demands for electricity will exceed the capacity of the grid for a short time.\nA common example of this would be excess power generation in a low demand area with insufficient transmission capacity to move it to areas of high demand.\nOutages in production, or temporary maintenance of a line, will increase electrical load on remaining lines.\nBottlenecks will form in areas that contain multiple lines converging—leading to higher levels of energy congestion."
+  },
+  {
+    "objectID": "posts/p5_energized_ai_hypotheses/index.html#connecting-to-the-grid",
+    "href": "posts/p5_energized_ai_hypotheses/index.html#connecting-to-the-grid",
+    "title": "By the Power of Regulation - [PART 4]",
+    "section": "Connecting to the grid",
+    "text": "Connecting to the grid\nWhen a new power generation facility, such as a wind farm or new hydroelectric dam, finishes production—transmission lines will be connected from the new facilities step-up transformer (matching existing voltage and frequency) to the nearest substation.\nOnce hooked up to the grid, the new production facility will gradually increase power output until complete synchronization!"
+  },
+  {
+    "objectID": "posts/p5_energized_ai_hypotheses/index.html#regulating-the-grid",
+    "href": "posts/p5_energized_ai_hypotheses/index.html#regulating-the-grid",
+    "title": "By the Power of Regulation - [PART 4]",
+    "section": "Regulating the grid",
+    "text": "Regulating the grid\nPower is power, so-to-speak, and everybody wants it! As a result, several large governing bodies have to be involved with any major power change:\n\nFederal Energy Regulatory Commission (FERC): an independent agency which regulates the interstate transmission of electricity and oversees wholesale electricity markets\n\nex: the FERC would approve a proposal to build new interstate transmission lines between Arizona and California\n\nNorth American Electric Reliability Corporation (NERC): A non-profit organization that develops and enforces reliability standards for the bulk power system in North America\n\nex: NERC developed and enforced a new cybersecurity standard for power grid operators after a series of attempted cyberattacks on utility companies.\n\nRegional Transmission Organizations (RTOs) and Independent System Operators (ISOs): non-profit organizations that coordinate, control, and monitor the electric grid across multiple states and helps manage the wholesale electricity markets to ensure reliable operation of the grid\n\nex: during heatwaves in the Midwest, the Midcontinent Independent System Operator (MISO) coordinates with power plants across several states to increase electricity generation and manage the grid to prevent blackouts\n\nState Public Utility Commissions (PUCs): state-level agencies that regulate the retail electricity markets and oversee the operations of utilities within their state\n\nex: The California Public Utilities Commission (CPUC) approved a rate increase for a major utility company to fund wildfire prevention measures\n\nLocal utilities: companies responsible for the final distribution of electricity to end-users and maintaining the local distribution infrastructure\n\nex: A municipal utility located within a small town in Oregon implemented a smart meter program for all its customers, allowing for more accurate billing\n\n\nThese governing bodies have created various frameworks to understand and control the market forces that dictate when new energy needs to be produced, how it will transfer there, and who will get to use it.\nRTOs and ISOs have algorithms and market mechanisms to optimize how much energy powers plant should be producing and the capacity of operation required to meet market demands.\n\nHow this maps to the great state of Idaho\nDue to its heavy reliance on hydroelectric power, Idaho’s energy landscape has a relatively simple regulatory framework compared to states with multiple overlapping RTOs or ISOs.\nHere’s how it breaks down:\n\nFERC: Issues licensing and oversees projects the Snake River as it is considered a major interstate water resource and therefore everything utilizing it must be built within compliance of federal regulation.\nNERC: Idaho falls under the Western Electricity Coordinating Council (WECC), which is the regional entity of NERC responsible for coordinating and promoting bulk electric system reliability in the Western Interconnection.\nRTO/ISO: Idaho does not belong to any Regional Transmission Organization (RTO) or Independent System Operator (ISO). Most of the state’s transmission system is operated by individual utilities\nPUC (Public Utilities Commission): Idaho has one state-level regulatory body— theIdaho Public Utilities Commission (IPUC)\nMajor Utilities in Idaho: While not regulatory bodies themselves, these are the main companies regulated by the IPUC:\n\nIdaho Power Company\nAvista Utilities\nRocky Mountain Power (a division of PacifiCorp)\nFall River Rural Electric Cooperative\nKootenai Electric Cooperative"
+  },
+  {
+    "objectID": "posts/p5_energized_ai_hypotheses/index.html#next-up-to-read",
+    "href": "posts/p5_energized_ai_hypotheses/index.html#next-up-to-read",
+    "title": "Energized AI Hypotheses - [PART 5]",
+    "section": "Next up to read",
+    "text": "Next up to read\nThe series has concluded but read up on my thoughts about what makes a good or bad AI business"
+  },
+  {
+    "objectID": "posts/p5_energized_ai_hypotheses/index.html#exploring-ai-profit-margin-improvement-plays-in-the-power-sector",
+    "href": "posts/p5_energized_ai_hypotheses/index.html#exploring-ai-profit-margin-improvement-plays-in-the-power-sector",
+    "title": "Energized AI Hypotheses - [PART 5]",
+    "section": "Exploring AI profit margin improvement plays in the power sector",
+    "text": "Exploring AI profit margin improvement plays in the power sector\nAt this point in the series, we’ve covered:\n\na high level exploration of the energy sub-sectors\na deep dive into dams and the mechanics of hydroelectric energy generation\nthe mechanics of energy transmission and how the grid operates as whole\ngrid congestion occurs and the major regulation players involved with day-to-day power operations\n\nSo where does AI solutions and products fit into any of this?\nI think of AI products and solutions as fitting one of two buisness case archtypes:\n\nproducts and solutions that increase an existing business’s profit margins\nproducts and solutions that create a new capability and leads to previously impossible functionality and/or revenue streams\n\nI talk about my opinions on the two archtypes more in this post but TLDR I think the former sucks."
+  },
+  {
+    "objectID": "posts/p5_energized_ai_hypotheses/index.html#using-ai-to-innovate-and-create-new-capabilities-previously-unavailable",
+    "href": "posts/p5_energized_ai_hypotheses/index.html#using-ai-to-innovate-and-create-new-capabilities-previously-unavailable",
+    "title": "Energized AI Hypotheses - [PART 5]",
+    "section": "Using AI to innovate and create new capabilities previously unavailable",
+    "text": "Using AI to innovate and create new capabilities previously unavailable\nI feel like most people agree that adding new capabilities and features with technologies tends to add the most value to the market—but they also tend to be the hardest to build effectively.\nWith that in mind I thought it would be a good exercise to hypothesize some ways that AI-centric companies can be built to serve the energy sector.\n\nMicro-hydro opportunities\nPublic rivers such as the Idaho Snake River often run adjacent to or through private properties. I’m not sure of the exact legal ramifications, but individuals could leverage an AI-driven platform that helps them to identify and monetize micro-hydro opportunities.\nThe algorithms would essentially:\n\nanalyze various satellite and terrain data to identify potential micro-hydro sites\nconnect property owners with either equipment distributors or some other capital investor\nensure new energy produced would be optimally added to the existing grid\ncooperate with electricity market makers for a fair energy rate\n\nMight not be possible but sounds cool!\n\n\nAI-powered energy futures market\nThis one leans towards web3 crypto style thinking, but a futures market which enables individuals / business to hedge against future energy prices and availability could be super cool.\nIt would go something like this:\n\nalgorithms predict hyper-local energy prices and availability based on various factors\nanybody can “buy” future energy allocations at the price predicted during purchase time\nenergy allocations can be exercised\nall the typical derivatives associated with a futures market can be enabled for more complex trading processes\n\n\n\nMobile solar farm deployment swarms\nSolar panels have continued to get smaller, more efficient, and easier to use.\nAI drone swarm technology has also arrived at an impressive capability point.\nTherefore, the product combines these two concepts as such:\n\nalgorithms determine optimal locations for temporary solar energy capture\nmodular drone swarm of mobile solar panels moves to these locations on an efficient logistical route\nthis dynamic solar infrastructure maximizes renewable energy in areas previously unusable and can be moved to new areas easily during seasons of low energy generation\n\nI’m imagining some Call of Duty or James Bond villain level shenanigans with this idea but it could be a great way to rapidly expand the grid in high-demand areas during peak usage time periods without letting capital get sunk in seasonal usage areas.\n\n\nCybersecurity digital twin of the energy grid\nDigital twin companies have been having their hay day and it can apply to the energy grid as well.\nThe product would go something like this:\n\nAI maintained real-time digital twin of a state’s energy system in a sector-by-sector or state-wide view\nvarious cybersecurity war games and exercises could be performed on the digital twin without risk to the real world system\nAI agents simulate attacks to better understand threats and vulnerabilities\n\n\n\nHydroelectric edge computing network data centers\nThis one has a hardware component but a network of hydroelectric-powered edge devices distributed across public waterways could act as a new form of data center\n\nalgorithms determine optimal placement of small data centers near hydroelectric sources\nexcess hydroelectric capacity directly transfers to the facility and becomes a green compute power resource that can be sold as usual\nAI systems manage workload distribution based on real-time energy flucations\n\nMeets growing demands for sustainable cloud computing while leveraging hydroelectric oversupply in low-demand areas."
+  },
+  {
+    "objectID": "posts/p5_energized_ai_hypotheses/index.html#conclusion",
+    "href": "posts/p5_energized_ai_hypotheses/index.html#conclusion",
+    "title": "Energized AI Hypotheses - [PART 5]",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe energy sector operates as one of the largest market sectors in the world and has many ripe opportunities.\nSimple profit margin plays can be made galore, but with a bit of clever thinking AI can be used to create new niches previously impossible that lead to new capabilities."
+  },
+  {
+    "objectID": "posts/p6_margin_plays_suck/index.html",
+    "href": "posts/p6_margin_plays_suck/index.html",
+    "title": "AI businesses built to be profit margin plays suck",
+    "section": "",
+    "text": "Understand how energy transmission works from a fundamental perspective\n\n\nI’ve had three conversations in the last week with colleagues on the topic of “good AI business concepts”, and each one has more-or-less gone this way:\n\nconvo starts off with “I have an idea and I’m doing x, y, and z for my minimum viable product (MVP)”\nwe outline how the MVP will solve a business case and that several other companies have done similar things in addressable markets that can be used for effective comparison\nI talk about how in my personal experience this is going to probably suck to build and it’ll suck even more to make it into a real cash cow\nwe agree that somebody out there can probably do this (so why not “me”)\nconversation ends and I’m glad that I’m not the one that has to build that MVP\n\nThe tech industry has been 10x pilled for awhile now thanks to Peter Thiel and the main spin off derivatives. I agree 100% in the framework, and that the power law exists, but I have a bone to pick with building a company that exists in the “we improve X% and rake in Y% of that as a kickback” space.\nHistory has shown us that dozens of startups emerged in the last year built the idea of creating an AI product or service for an easy 10x on some critical part of an unsexy business vertical’s core offering and that companies can indeed be founded with solid venture capital.\nSo it’s not that AI profit margin plays can’t happen—it’s that they suck to build and I don’t want to be the one that does that."
+  },
+  {
+    "objectID": "posts/p6_margin_plays_suck/index.html#non-ai-companies-using-ai-to-improve-margin-tend-to-be-big-winners",
+    "href": "posts/p6_margin_plays_suck/index.html#non-ai-companies-using-ai-to-improve-margin-tend-to-be-big-winners",
+    "title": "AI businesses built to be profit margin plays suck",
+    "section": "Non-AI companies using AI to improve margin tend to be big winners",
+    "text": "Non-AI companies using AI to improve margin tend to be big winners\nI want this opinion piece to be cut by some great examples of start-ups built or leveraging AI to capitalize on some margin improvement business case as a compliment to their primary business venture to demonstrate that it AI can and should be used to improve productivity:\n\nwatershed - layers in several different types of algorithms to further increase their decarbonization solution success rates\nveho - fundamentally a logistics company that employs AI to further push the improvements on their logistical solution offerings\ndeel - a payroll and compliance platform using AI to further improve the effectiveness of their compliance offerings"
+  },
+  {
+    "objectID": "posts/p6_margin_plays_suck/index.html#ai-companies-built-to-improve-margin-tend-to-suck",
+    "href": "posts/p6_margin_plays_suck/index.html#ai-companies-built-to-improve-margin-tend-to-suck",
+    "title": "AI businesses built to be profit margin plays suck",
+    "section": "AI companies built to improve margin tend to suck",
+    "text": "AI companies built to improve margin tend to suck\n\nolive ai - attempted to automate and improve hospital related administrative tasks in an attempt to reduce costs—rising to a four billion dollar evaluation and then shutting down\nAtrium - 50% legal tech company, 50% AI innovation company, 100% closed down\nClarifai (improving accuracy in visual recognition), H20.ai (improving business processes), Zume (improving the food industry) - AI driven companies still around today, and could have potentially strong exits, but all had to go through some form of restructure with major lay offs 😬\n\nThe point of this section being—the space exists for a reason but it can be grueling to play in.\nTODO - some big AI winners and a blurb about deep tech is the play for making new features?"
+  },
+  {
+    "objectID": "posts/p6_margin_plays_suck/index.html#next-up-to-read",
+    "href": "posts/p6_margin_plays_suck/index.html#next-up-to-read",
+    "title": "AI businesses built to be profit margin plays suck",
+    "section": "Next up to read",
+    "text": "Next up to read\nStay tuned for more!"
+  },
+  {
+    "objectID": "posts/p5_energized_ai_hypotheses/index.html#using-ai-to-improve-profit-margins-for-solutions-that-currently-exist",
+    "href": "posts/p5_energized_ai_hypotheses/index.html#using-ai-to-improve-profit-margins-for-solutions-that-currently-exist",
+    "title": "Energized AI Hypotheses - [PART 5]",
+    "section": "Using AI to improve profit margins for solutions that currently exist",
+    "text": "Using AI to improve profit margins for solutions that currently exist\n\nPredictive solutions\nIn almost every aspect of the energy sector stack we see a need of predictive methods. Anything that requires maintenance could probably benefit from improved efficiency and a typical tech dashboard. I’m trying not to roll my eyes writing this one.\nAs new energy sources such as solar and wind become available, these new facilities will benefit from weather predictions impacting their generation capabilities and optimizing storage systems for fluctuations in generation windows.\nMost business cases would be along the lines of, “improve margins for X by increasing uptime, providing more stable power during peak hours, performing maintenance operations during downtime, stopping lost cash during unexpected downtime etc.”\nI would add water resource management type solutions that predict climate related variables such as water availability (snowpack + rainfall), reservoir management and irrigation, and whatever other long-term climate factors that impacts water production.\n\n\nSmarter distribution solutions\nThink anything that makes it more efficient to move or use energy in areas that need it at time of demand.\nBusiness case would be similar to predictive solutions in that users improve business margins by making sure existing capabilities get used to maximum performance.\n\n\nConsumer energy efficiency solutions\nAnything personalized or tailored to individual consumers that improves energy consumption based on their usage pattern will probably be an effective business case.\nBusiness case would be, “you save X% on your energy, feel good about being a smaller consumer, and we get some type of kickback”.\n\n\nCybersecurity improvement solutions\nEach of the regulation bodies has to deal with cybersecurity in some fashion. AI can be extremely powerful when it comes to detecting and responding to cyber threats—including vulnerability / penetration testing or simulation scenarios.\nAnother simple business case of, “we protect your shit so the American government doesn’t crash”\n\n\nRegulatory compliance and reporting solutions\nPeople don’t perform stare-and-compare actions well and AI has a great working knowledge of compliance databases.\nAnything that automates data collection or improves report generation accuracy will probably be successful.\nReal-time monitoring operations and prediction of potential compliance issues can be layered in for extra value.\nA more complex business case that can go towards improving margins through reduction of seasonal workers and/or time to compliance."
   }
 ]
